@@ -38,10 +38,11 @@ nextApp.prepare()
     }));
 
     app.use('/', routes);
+    // app.use(handler);
 
     app.get('*', (req, res) => {
       return handle(req, res)
-    })
+    });
 
 // app.use(passport.initialize());
 // app.use(passport.session());

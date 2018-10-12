@@ -6,7 +6,7 @@ import shop from './shop';
 import team from './team';
 
 
-const api = new express.Router()
+const api = new express.Router();
 
 api.use('/', home);
 api.use('/blog', blog);
