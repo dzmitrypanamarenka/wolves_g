@@ -1,6 +1,7 @@
 import express from 'express';
 
 import nextApp from '../../nextInit';
+import Post from '../../models/Post';
 
 const router = new express.Router();
 
@@ -9,7 +10,15 @@ router.route('/').get((req, res) => {
 });
 
 router.route('/new').post((req, res) => {
-  console.log(req)
+  const { title, tag, text } = req.body;
+  const post = new Post({
+    title,
+    tag,
+    text
+  });
+  post.save()
+    .then((data) => console.log(data))
+    .catch((err) => console.log(err));
   res.status(200)
 });
 

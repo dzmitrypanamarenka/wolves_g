@@ -3,4 +3,4 @@ import { Layout } from 'antd';
 
 const { Header } = Layout;
 
-export default () => <Header>header</Header>
+export default () => <Header className='super'>header</Header>
