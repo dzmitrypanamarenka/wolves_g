@@ -1,0 +1,78 @@
+.video {
+  width: 100%;
+}
+.video img {
+  width: 100%;
+}
+
+.block-title {
+  overflow: hidden;
+  position: relative;
+  margin: 20px 0 15px 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.block-title::before,
+.block-title::after {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  width: 50%;
+  height: 5px;
+  vertical-align: middle;
+  background: #ff9c00;
+}
+
+.block-title::before {
+  left: -30px;
+  margin-left: -50%;
+}
+
+.block-title::after {
+  left: 30px;
+  margin-right:  -50%;
+}
+
+.online-shop {
+  margin: 0 20px;
+}
+
+.blog {
+  margin: 0 20px;
+}
+
+.container > .sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px 0px 10px;
+  background-color: #000000;
+}
+
+.sidebar > .banner {
+  width: 100%;
+}
+
+.sidebar > .banner > img {
+  width: 100%;
+}
+
+.sidebar > .wrapper > .block-title {
+  color: #ffffff;
+}
+
+.sidebar > .banner {
+  width: 100%;
+}
+
+.sidebar > img {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comment:nth-of-type(2n) {
+  background-color: grey;
+}
+
