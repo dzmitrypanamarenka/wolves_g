@@ -1,9 +1,11 @@
 import React from 'react';
-import { Button } from 'antd';
 
-import Blog from './Blog';
+import Homepage from '../components/homepage';
+import '../components/normalize.scss';
+import '../components/fonts.scss';
+import '../components/style.scss';
 import 'antd/dist/antd.css';
 
 export default () => <div className="router-wrap">
-  <Button type="danger" size='large'>Danger</Button>
+  <Homepage/>
 </div>;

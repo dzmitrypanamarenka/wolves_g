@@ -1,0 +1,11 @@
+.twitter {
+    color: #ffffff;
+}
+
+.twitter > .tweet {
+    display: flex;
+    border-bottom: 1px solid #373636;
+}
+.twitter > .tweet > .icon {
+    width: 10%;
+}
