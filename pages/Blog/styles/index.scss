@@ -1,11 +1,33 @@
 .blog-wrap {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  background: red;
 }
 
 .form-wrap {
   display: flex;
   flex-direction: column;
-  width: 300px
+}
+
+.ant-form {
+  & {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0;
+  }
+
+  > .ant-form-item {
+    width: 50%;
+  }
+}
+
+.ant-layout-content {
+  display: flex;
+  justify-content: center;
+}
+
+.ant-layout-footer {
+  background: #001529;
 }

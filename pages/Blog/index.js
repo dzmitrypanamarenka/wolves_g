@@ -1,46 +1,88 @@
 import React from 'react';
 import axios from 'axios';
+import { Form, Input, Button } from 'antd';
 
-import { Layout } from '../../components';
+import { Layout, BlogPost } from '../../components';
 import './styles/index.scss';
 
-export default class Blog extends React.Component {
+const FormItem = Form.Item;
+const TextArea = Input.TextArea;
+const url = 'http://localhost:8081/blog';
+
+class FormBlog extends React.Component {
   state = {
-    title: '',
-    tag: '',
-    text: ''
+    posts: []
+  };
+  
+  fetchPosts = async ()=>{
+    const { data } = await axios.get(`${url}/posts`);
+    this.setState({ posts: data });
   };
 
   onSubmit = (e) => {
     e.preventDefault();
-    const url = 'http://localhost:8081/blog/new';
-    const { title, tag, text } = this.state;
-    axios.post(url, {
-      title,
-      tag,
-      text
-    });
-
+    const values = this.props.form.getFieldsValue();
+    axios.post(`${url}/new`, values)
+      .then(()=> this.fetchPosts());
+    
   };
+  
+  testClick = (id) => (e) => {
+    e.preventDefault();
+    axios.get(`${url}/posts/${id}`)
+  };
+  
+   componentDidMount() {
+    this.fetchPosts()
+  }
 
   render () {
+    const { getFieldDecorator } = this.props.form;
     return <Layout>
       <div className="blog-wrap">
-        <form className="form-wrap" onSubmit={this.onSubmit}>
-          <input name="title" type="text" placeholder="title"
-                 value={this.state.title}
-                 onChange={(e) => this.setState({title: e.target.value})}
-          />
-          <input name="tag" type="text" placeholder="tag" value={this.state.tag}
-                 onChange={(e) => this.setState({tag: e.target.value})}
-          />
-          <textarea name="content" id="" cols="10" rows="10" value={this.state.text}
-                onChange={(e) => this.setState({text: e.target.value})}
-          ></textarea>
-          <input type="submit"/>
-        </form>
+        <Form onSubmit={this.onSubmit}>
+          <FormItem>
+            {getFieldDecorator('title', {
+              rules: [{ required: true, message: 'Please input title!' }],
+            })(
+              <Input placeholder="title" />
+            )}
+          </FormItem>
+          <FormItem>
+            {getFieldDecorator('tag', {
+                rules: [{ required: true, message: 'Please input category!' }],
+              },
+            )(
+              <Input placeholder="tag"/>
+            )}
+          </FormItem>
+          <FormItem>
+            {getFieldDecorator('text', {
+              rules: [{ required: true, message: 'Please input text!' }],
+            })(
+              <TextArea placeholder="text"/>
+            )}
+          </FormItem>
+          <FormItem>
+            <Button
+              type="primary"
+              htmlType="submit"
+            >
+              Send
+            </Button>
+          </FormItem>
+        </Form>
+        <div className='posts-wrap'>
+          {this.state.posts.map(el => {
+            return <BlogPost key={el._id} {...{...el, click: this.testClick}}/>
+          })}
+        </div>
       </div>
     </Layout>
   }
 }
+const Index = Form.create()(FormBlog);
+export default Index;
+
+
 

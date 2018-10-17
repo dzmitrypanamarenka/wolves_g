@@ -1,0 +1,33 @@
+.post-wrap {
+  & {
+    display: flex;
+    flex-direction: column;
+    padding: 0 7%;
+  }
+
+  > .title {
+    display: flex;
+    justify-content: center;
+    font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    color: rgba(0,0,0,.84);
+    line-height: 1.04;
+    letter-spacing: -.015em;
+    text-transform: capitalize;
+  }
+
+  > .text {
+    display: block;
+    font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(0,0,0,.84);
+    overflow-wrap: break-word;
+    text-rendering: optimizelegibility;
+    letter-spacing: -0.063px;
+    line-height: 33.18px;
+  }
+}

@@ -1,0 +1,13 @@
+@import '../../node_modules/antd/dist/antd.css';
+
+#__next {
+  display: flex;
+  justify-content: center;
+}
+
+.ant-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1150px;
+}
