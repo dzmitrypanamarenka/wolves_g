@@ -14,13 +14,11 @@ class BlogPostLayout extends React.Component {
   
   fetchPosts = async (id) => {
     const { data } = await axios.post(`${url}/posts`, { id });
-    console.log(data)
     this.setState({posts: data});
   };
 
   componentDidMount() {
     const { id } = this.props.router.query;
-    console.log(this.props)
     this.fetchPosts(id)
   }
   

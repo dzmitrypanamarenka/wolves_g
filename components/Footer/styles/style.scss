@@ -1,5 +1,8 @@
-.grid-wrapper > .footer {
+.footer.ant-layout-footer {
+    background: none;
     padding: 0;
+    color: transparent;
+    font-size: 14px;
 }
 
 .footer > .container {

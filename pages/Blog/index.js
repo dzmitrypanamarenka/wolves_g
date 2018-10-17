@@ -22,14 +22,7 @@ class FormBlog extends React.Component {
   onSubmit = (e) => {
     e.preventDefault();
     const values = this.props.form.getFieldsValue();
-    axios.post(`${url}/new`, values)
-      .then(()=> this.fetchPosts());
-    
-  };
-  
-  testClick = (id) => (e) => {
-    e.preventDefault();
-    axios.get(`${url}/posts/${id}`)
+    axios.post(`${url}/new`, values);
   };
   
    componentDidMount() {
@@ -74,7 +67,7 @@ class FormBlog extends React.Component {
         </Form>
         <div className='posts-wrap'>
           {this.state.posts.map(el => {
-            return <BlogPost key={el._id} {...{...el, click: this.testClick}}/>
+            return <BlogPost key={el._id} {...el}/>
           })}
         </div>
       </div>

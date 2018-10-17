@@ -53,29 +53,3 @@ export default () => <div className="blog-content">
     </Col>
   </Row>
 </div>;
-
-
-
-
-import _ from 'lodash';
-import { combineReducers } from 'redux';
-
-// BEGIN (write your solution here)
-export default() => {
-  const comments = (state = {}, action) => {
-    switch (action.type) {
-      case 'TASK_ADD': {
-         const {task} = action.payload;
-      return {...state, [task.id]: {id:task.id, taskId: task.id}, body: task.body};
-      }
-      case 'TASK_REMOVE': {
-        const {id} = action.payload;
-        return omit(state, id);
-      }
-      case 'TASK_COMMENT_ADD': {
-        
-      }
-    }
-  }
-}
-// END
