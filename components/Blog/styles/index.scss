@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  .post-wrap {
+    margin: 40px 0;
+  }
 }
 
 .form-wrap {

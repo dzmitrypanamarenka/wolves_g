@@ -1,3 +1,25 @@
-.social {
-    color: white;
+.social-icons {
+    & {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    > .icon-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 23.9%;
+        height: 60px;
+        color: white;
+        background: orange;
+
+        &:hover {
+            background: white;
+            color: orange;
+        }
+    }
+
+    > .icon-wrap > .icon {
+        font-size: 32px;
+    }
 }

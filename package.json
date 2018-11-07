@@ -4,8 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next",
+    "next-start": "next start",
     "build": "next build",
-    "start": "nodemon -r @babel/register ./index.js"
+    "start": "nodemon -r @babel/register ./index.js",
+    "deploy": "node -r @babel/register ./index.js",
+    "export": "npm run build && next export"
   },
   "dependencies": {
     "@babel/cli": "^7.1.0",
@@ -23,6 +26,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "express-session": "^1.15.6",
     "i": "^0.3.6",
+    "lodash": "^4.17.11",
     "mongoose": "^5.2.8",
     "next": "^7.0.0",
     "node-sass": "^4.9.3",
@@ -35,13 +39,24 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-instagram-embed": "^1.4.0",
-    "react-router-dom": "^4.3.1"
-  },
-  "devDependencies": {
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-svg": "^6.0.21",
+    "react-twitter-embed": "^2.0.3",
+    "react-vimeo": "^2.0.0",
+    "react-youtube": "^7.8.0",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.1",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-thunk": "^2.3.0",
+    "url-loader": "^1.1.2",
+    "video-react": "^0.13.0",
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "morgan": "^1.9.0"
+  },
+  "devDependencies": {
   },
   "main": "index.js"
 }

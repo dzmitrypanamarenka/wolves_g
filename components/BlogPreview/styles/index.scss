@@ -1,21 +1,20 @@
- .blog > .block-title 
- .blog-content {
-   padding: 30px 0 100px;
+.blog-content {
+ & {
+   margin: 0 0 30px;
  }
 
- .blog-content > .ant-row >.item {
-   padding-bottom: 24px;
- }
- .blog-content > .ant-row >.item > .wrapper {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   width: 100%;
-   background-color: #ff9c00;
- }
- .blog-content > .ant-row >.item > .wrapper > .title {
-   color: #ffffff;
- }
- .blog-content > .ant-row > .item > img {
-   width: 100%;
- }
+  > .ant-row >.item {
+    padding-bottom: 24px;
+  }
+
+  > .ant-row > .item > .link > .img {
+    width: 100%;
+    height: 270px;
+    background-size: cover;
+    background-position: top center;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+}

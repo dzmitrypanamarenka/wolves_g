@@ -4,7 +4,7 @@ import nextApp from '../../nextInit';
 
 const router = new express.Router();
 
-router.route('/coming-soon').get((req, res) => {
+router.route('/').get((req, res) => {
   return nextApp.render(req, res, '/ComingSoon', req.query)
 });
 

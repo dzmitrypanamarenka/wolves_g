@@ -1,25 +1,21 @@
-import {connect} from 'react-redux';
-import {postActions} from '../../redux/actions';
+import { connect } from 'react-redux';
+import { postActions } from '../../redux/actions';
+import Blog from '../../components/Blog';
 
-// import store from '../../redux/store';
-// import BlogPostLayout from '../../pages/BlogPost';
-import BlogPostLayout from '../../components/test/huest';
+const { fetchPosts } = postActions;
 
-const {fetchPosts} = postActions;
-
-const mapStateToProps = (state) => {
-  console.log(state)
+const mapStateToProps = ({ posts }) => {
   // const posts =  state.posts;
-  return state;
+  return posts;
 };
 
 
-const BlogLayoutContainer = connect(
+const BlogContainer = connect(
   mapStateToProps,
   {
     fetchPosts
   },
-)(BlogPostLayout);
+)(Blog);
 
 
-export default BlogLayoutContainer;
+export default BlogContainer;

@@ -10,7 +10,7 @@ router.route('/').get((req, res) => {
 });
 
 router.route('/posts/:id').get((req, res) => {
-  return nextApp.render(req, res, '/BlogPost', { id: req.params.id })
+  return nextApp.render(req, res, '/Blog', { id: req.params.id })
 });
 
 router.route('/posts').get((req, res) => {
@@ -37,6 +37,15 @@ router.route('/new').post((req, res) => {
     .then((data) => console.log(data))
     .catch((err) => console.log(err));
   res.status(200)
+});
+
+router.route('/preview').get((req, res) => {
+  Post
+    .find({})
+    .limit(4)
+    .exec((err, posts) => {
+      res.json(posts);
+    })
 });
 
 export default router; 

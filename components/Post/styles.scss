@@ -30,4 +30,33 @@
     letter-spacing: -0.063px;
     line-height: 33.18px;
   }
+
+  .img {
+    height: 60vh;
+    min-height: 500px;
+    background-position: 56% 44%;
+    background-size: cover;
+    background-origin: border-box;
+    margin: 20px 0;
+
+    &.-post {
+      display: inline-block;
+      height: 40vh;
+      min-height: 300px;
+      width: 50%;
+      margin: 0;
+
+      &.-left {
+        float: left;
+        margin-right: 20px;
+      }
+
+      &.-right {
+        float: right;
+        margin-left: 20px;
+      }
+    }
+
+
+  }
 }

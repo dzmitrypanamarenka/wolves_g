@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+.coming-soon {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #000000 url('/static/img/coming-soon.jpg') no-repeat;
+  background-position: center;
+
+  > .link {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+    text-decoration: none;
+    background-color: #ffa500;
+    padding: 10px;
+    text-transform: uppercase;
+
+    &:focus {
+      text-decoration: none;
+    }
+
+    &:hover {
+      background-color: #ffffff;
+    }
+
+    &:hover > .title {
+      color: #ffa500;
+    }
+
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
+  > .link > .title {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 0;
+  }
+}

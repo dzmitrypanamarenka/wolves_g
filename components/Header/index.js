@@ -16,14 +16,26 @@ export default () => <Header className='main-header'>
                     <a className='title'>STARTSEITE</a>
                   </Link>
                 </li>
-                <li className="item">ONLINE-MAGAZIN</li>
                 <li className="item">
-                  <Link href={`/blog/`}>
+                <Link href={`/coming-soon`}>
+                    <a className='title'>ONLINE-MAGAZIN</a>
+                  </Link>
+                </li>
+                <li className="item">
+                  <Link href={`/blog`}>
                     <a className='title'>BLOG</a>
                   </Link>
                 </li>
-                <li className="item">ÜBER UNS</li>
-                <li className="item">SHOP</li>
+                <li className="item">
+                  <Link href={`/coming-soon`}>
+                    <a className='title'>ÜBER UNS</a>
+                  </Link>
+                </li>
+                <li className="item">
+                  <Link href={`/coming-soon`}>
+                    <a className='title'>SHOP</a>
+                  </Link>
+                </li>
             </ul>
         </Col>
     </Row>

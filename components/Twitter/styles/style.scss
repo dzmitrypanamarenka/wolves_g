@@ -1,11 +1,18 @@
-.twitter {
-    color: #ffffff;
+.twitter-wrapper {
+    width: 100%;
+    height: 420px;
+    oveflow: hidden;
 }
 
 .twitter > .tweet {
     display: flex;
     border-bottom: 1px solid #373636;
 }
+
+.twitter > .tweet > .content {
+    margin: 20px 0 20px;
+}
+
 .twitter > .tweet > .icon {
-    width: 10%;
+    min-width: 45px;
 }

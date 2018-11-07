@@ -1,16 +1,28 @@
+.grid-wrapper {
+  width: 100%;
+}
+
 .video {
   width: 100%;
 }
-.video img {
+
+.video iframe {
   width: 100%;
+  height: 485px;
 }
 
 .block-title {
   overflow: hidden;
   position: relative;
   margin: 20px 0 15px 0;
+  font-size: 25px;
+  line-height: 25px;
   text-align: center;
   white-space: nowrap;
+
+  &.-blog {
+    margin: 40px 0 35px 0;
+  }
 }
 
 .block-title::before,
@@ -32,7 +44,7 @@
 
 .block-title::after {
   left: 30px;
-  margin-right:  -50%;
+  margin-right: -50%;
 }
 
 .online-shop {
@@ -48,6 +60,7 @@
   flex-direction: column;
   padding: 20px 10px 0px 10px;
   background-color: #000000;
+  height: 100%;
 }
 
 .sidebar > .banner {
@@ -62,17 +75,94 @@
   color: #ffffff;
 }
 
+.sidebar > .wrapper > .comment {
+  margin-left: 45px;
+  margin-bottom: 20px;
+}
+
+.sidebar > .wrapper > .img-inst {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
 .sidebar > .banner {
   width: 100%;
 }
 
 .sidebar > img {
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 70px auto auto auto;
 }
 
-.comment:nth-of-type(2n) {
-  background-color: grey;
+.sidebar > .wrapper {
+  color: #ffffff;
+}
+
+.magazine-wrap {
+  & {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    border: 1px solid #000000;
+    padding: 25px 15px;
+    cursor: default;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: -85px;
+      right: -85px;
+      border: 85px solid transparent;
+      border-bottom: 85px solid orange;
+      transform: rotate(45deg);
+    }
+  }
+
+  > .title {
+    color: #ffffff;
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    transform: rotate(45deg);
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  > .text {
+    margin: 0 0 60px 60px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  > .text > .color {
+    color: #ffa500;
+  }
+
+  > .img {
+    width: 65%;
+  }
+
+  > .link {
+    width: 33%;
+    align-self: center;
+    margin: 25px auto 0;
+    color: #000000;
+
+    &:hover{
+      opacity: .8;
+    }
+  }
+
+  > .link > .title-wrapper > .text {
+    cursor: pointer;
+  }
+
+  > .link > .title-wrapper > .title {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 0;
+  }
 }
 

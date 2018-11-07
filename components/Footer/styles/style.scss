@@ -1,25 +1,43 @@
 .footer.ant-layout-footer {
-    background: none;
-    padding: 0;
-    color: transparent;
-    font-size: 14px;
+    & {
+        background: none;
+        padding: 0;
+        color: transparent;
+        font-size: 14px;
+    }
+
+    > .container {
+        display: flex;
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 17px;
+        padding: 25px 40% 25px 70px;
+    }
+
+    > .container > .description > .title {
+        color: #ffa500;
+        font-size: 25px
+    }
+
+    > .container > .legal > .title {
+        color: #ffa500;
+        font-size: 25px;
+    }
+
+    > .container > .legal {
+        display: flex;
+        flex-direction: column;
+        margin-left: 75px;
+        line-height: 33px;
+    }
+
+    > .container > .legal > .link:hover > .title {
+        color: #ffa500;
+    }
+
+    > .container > .legal > .link > .title {
+        color: #ffffff;
+        font-size: 17px;
+    }
 }
 
-.footer > .container {
-    display: flex;
-    background-color: #000000;
-    color: #ffffff;
-}
-
-.footer > .container > .description > .title {
-    color: #ff9c00;
-}
-
-.footer > .container > .legal > .title {
-    color: #ff9c00;
-}
-
-.footer > .container > .legal {
-    display: flex;
-    flex-direction: column;
-}
