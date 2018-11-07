@@ -22,6 +22,7 @@ const {
   dbURL,
   dbOptions
 } = config;
+const mongoDbURI = process.env.MONGODB_URI || dbURL;
 
 mongoose.Promise = global.Promise;
 
@@ -52,7 +53,7 @@ nextApp.prepare()
 
     // app.use('/', routes);
 
-    mongoose.connect(dbURL, dbOptions);
+    mongoose.connect(mongoDbURI, dbOptions);
     mongoose.connection
       .once('open', () => {
         console.log(`Mongoose - successful connection ...`);
