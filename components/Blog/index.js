@@ -53,38 +53,38 @@ class FormBlog extends React.Component {
     const { getFieldDecorator } = this.props.form;
     return <Layout>
       <div className="blog-wrap">
-        {/*<Form onSubmit={this.onSubmit}>*/}
-          {/*<FormItem>*/}
-            {/*{getFieldDecorator('title', {*/}
-              {/*rules: [{ required: true, message: 'Please input title!' }],*/}
-            {/*})(*/}
-              {/*<Input placeholder="title" />*/}
-            {/*)}*/}
-          {/*</FormItem>*/}
-          {/*<FormItem>*/}
-            {/*{getFieldDecorator('tag', {*/}
-                {/*rules: [{ required: true, message: 'Please input category!' }],*/}
-              {/*},*/}
-            {/*)(*/}
-              {/*<Input placeholder="tag"/>*/}
-            {/*)}*/}
-          {/*</FormItem>*/}
-          {/*<FormItem>*/}
-            {/*{getFieldDecorator('text', {*/}
-              {/*rules: [{ required: true, message: 'Please input text!' }],*/}
-            {/*})(*/}
-              {/*<TextArea placeholder="text"/>*/}
-            {/*)}*/}
-          {/*</FormItem>*/}
-          {/*<FormItem>*/}
-            {/*<Button*/}
-              {/*type="primary"*/}
-              {/*htmlType="submit"*/}
-            {/*>*/}
-              {/*Send*/}
-            {/*</Button>*/}
-          {/*</FormItem>*/}
-        {/*</Form>*/}
+        <Form onSubmit={this.onSubmit}>
+          <FormItem>
+            {getFieldDecorator('title', {
+              rules: [{ required: true, message: 'Please input title!' }],
+            })(
+              <Input placeholder="title" />
+            )}
+          </FormItem>
+          <FormItem>
+            {getFieldDecorator('tag', {
+                rules: [{ required: true, message: 'Please input category!' }],
+              },
+            )(
+              <Input placeholder="tag"/>
+            )}
+          </FormItem>
+          <FormItem>
+            {getFieldDecorator('text', {
+              rules: [{ required: true, message: 'Please input text!' }],
+            })(
+              <TextArea placeholder="text"/>
+            )}
+          </FormItem>
+          <FormItem>
+            <Button
+              type="primary"
+              htmlType="submit"
+            >
+              Send
+            </Button>
+          </FormItem>
+        </Form>
         <div className='posts-wrap'>
           {/*{ this.state.id ? this.renderSinglePost() : this.renderAllPosts() }*/}
           <Post/>

@@ -22,7 +22,7 @@ const {
   dbURL,
   dbOptions
 } = config;
-const mongoDbURI = process.env.PROD_MONGODB || dbURL;
+const mongoDbURI = process.env.MONGODB_URI || dbURL;
 
 mongoose.Promise = global.Promise;
 
