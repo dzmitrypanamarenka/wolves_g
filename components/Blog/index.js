@@ -7,7 +7,7 @@ import './styles/index.scss';
 
 const FormItem = Form.Item;
 const TextArea = Input.TextArea;
-const url = 'http://localhost:8081/blog';
+const url = 'https://lit-island-20029.herokuapp.com/blog';
 
 class FormBlog extends React.Component {
   state = {
