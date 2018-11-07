@@ -44,6 +44,9 @@ router.route('/preview').get((req, res) => {
     .find({})
     .limit(4)
     .exec((err, posts) => {
+      if(err){
+        console.log(err)
+      }
       res.json(posts);
     })
 });
