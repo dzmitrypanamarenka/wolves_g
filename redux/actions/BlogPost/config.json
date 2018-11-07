@@ -1,0 +1,7 @@
+
+{
+    "default": "Something goes wrong. Try later!",
+    "401": "You're not allowed to connect to Wolvesg",
+    "503": "Wolvesg service unavailable",
+    "504": "Can't connect to Wolvesg service"
+  }
