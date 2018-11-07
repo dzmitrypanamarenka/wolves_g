@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "next-start": "npm run build && next start -h https://lit-island-20029.herokuapp.com",
+    "next-start": "npm run build && next start",
     "build": "next build",
     "start": "nodemon -r @babel/register ./index.js",
     "deploy": "node -r @babel/register ./index.js",
