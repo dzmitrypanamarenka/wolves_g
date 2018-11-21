@@ -2,7 +2,7 @@ module.exports = {
     apps: [{
       name: 'wolves_g',
       script: './index.js',
-      exec_interpreter: 'babel-node'
+      exec_interpreter: '@babel/register'
     }],
     deploy: {
       production: {
