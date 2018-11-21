@@ -7,8 +7,9 @@
     "next-start": "npm run build && next start",
     "build": "next build",
     "start": "nodemon -r @babel/register ./index.js",
-    "deploy": "node -r @babel/register ./index.js",
-    "export": "npm run build && next export"
+    "start-this": "node -r @babel/register ./index.js",
+    "deploy": "pm2 deploy ecosystem.config.js production",
+    "restart": "pm2 startOrRestart ecosystem.config.js"
   },
   "dependencies": {
     "@babel/cli": "^7.1.0",
