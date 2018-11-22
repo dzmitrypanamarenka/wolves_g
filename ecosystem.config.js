@@ -1,7 +1,7 @@
 module.exports = {
     apps: [{
       name: 'wolves_g',
-      script: 'node -r @babel/register ./index.js'
+      script: 'npm run start-this'
     }],
     deploy: {
       production: {
