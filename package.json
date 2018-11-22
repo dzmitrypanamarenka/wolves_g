@@ -6,8 +6,8 @@
     "dev": "next",
     "next-start": "npm run build && next start",
     "build": "next build",
-    "start": "nodemon -r @babel/register ./index.js",
-    "start-this": "node -r @babel/register ./index.js",
+    "start-this": "nodemon -r @babel/register ./index.js",
+    "start": "node -r @babel/register ./index.js",
     "deploy": "pm2 deploy ecosystem.config.js production",
     "restart": "pm2 startOrRestart ecosystem.config.js"
   },

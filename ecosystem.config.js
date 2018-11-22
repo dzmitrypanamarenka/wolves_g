@@ -2,7 +2,7 @@ module.exports = {
     apps: [{
       name: 'wolves_g',
       script: 'npm',
-      args: 'run start-this'
+      args: 'start'
     }],
     deploy: {
       production: {
