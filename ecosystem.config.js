@@ -1,9 +1,7 @@
 module.exports = {
     apps: [{
       name: 'wolves_g',
-      script: './index.js',
-      exec_interpreter: '@babel/register',
-      interpreter_args: '-r'
+      script: '-r @babel/register ./index.js'
     }],
     deploy: {
       production: {
@@ -16,4 +14,4 @@ module.exports = {
         'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
       }
     }
-  }
+};
