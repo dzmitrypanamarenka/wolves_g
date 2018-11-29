@@ -40,10 +40,10 @@ nextApp.prepare()
 
     // app.use('/', routes);
     app.get('/*', (req, res) => {
-      res.redirect('https://magazine.gamingwolves.net')
+      res.status(404)
     });
     app.get('/', (req, res) => {
-      res.redirect('https://magazine.gamingwolves.net')
+      res.status(404)
     });
     app.get('*', (req, res) => {
       return handle(req, res)
