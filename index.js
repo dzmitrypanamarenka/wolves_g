@@ -38,11 +38,16 @@ nextApp.prepare()
       saveUninitialized: false,
     }));
 
-    app.use('/', routes);
-
+    // app.use('/', routes);
+    app.get('/*', (req, res) => {
+      res.redirect('https://magazine.gamingwolves.net')
+    });
+    app.get('/', (req, res) => {
+      res.redirect('https://magazine.gamingwolves.net')
+    });
     app.get('*', (req, res) => {
       return handle(req, res)
-    })
+    });
 
 // app.use(passport.initialize());
 // app.use(passport.session());
