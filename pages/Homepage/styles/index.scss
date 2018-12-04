@@ -129,14 +129,14 @@
     font-weight: 600;
   }
 
-  > .text {
-    margin: 0 0 60px 60px;
+  > .wrap > .text {
+    margin: 0 0 30px 30px;
     font-size: 28px;
     font-weight: 600;
     color: #000;
   }
 
-  > .text > .color {
+  > .wrap > .text > .color {
     color: #ffa500;
   }
 
@@ -144,22 +144,27 @@
     width: 65%;
   }
 
-  > .link {
+  > .wrap {
     width: 33%;
     align-self: center;
     margin: 25px auto 0;
-    color: #000000;
+  }
 
+  > .wrap > .link {
+    display: flex;
+    margin-left: 30px;
+    color: #000000;
     &:hover{
       opacity: .8;
     }
   }
 
-  > .link > .title-wrapper > .text {
+  > .wrap > .link > .title-wrapper > .text {
+    text-transform: capitalize;
     cursor: pointer;
   }
 
-  > .link > .title-wrapper > .title {
+  > .wrap > .link > .title-wrapper > .title {
     color: #ffffff;
     font-size: 30px;
     margin-bottom: 0;

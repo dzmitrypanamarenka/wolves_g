@@ -1,20 +1,28 @@
-import React from 'react';
+// import React from 'react';
+//
+// import { FacebookProvider, Page } from 'react-facebook';
+//
+//
+// export default () => <div className='twitter-wrapper'>
+//
+// </div>;
 
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
-
+import React, { Component} from 'react';
+import { FacebookProvider, Page } from 'react-facebook';
 import './styles/style.scss';
 
-export default () => <div className='twitter-wrapper'>
-      <TwitterTimelineEmbed
-        sourceType="profile"
-        screenName="elonmusk"
-        linkColor="#FFA500"
-        theme="dark"
-        options={{height: 420}}
-        noHeader
-        noFooter
-        noBorders
-        noScrollbar
-        transparent
-      />
-</div>;
+export default class Twitter extends Component {
+  render() {
+    return (
+      <FacebookProvider appId="783469808696972">
+        <Page
+          href="https://www.facebook.com/Gaming-Wolves-1936582516635559"
+          tabs="timeline"
+          showFacepile={false}
+          smallHeader
+          hideCover
+        />
+      </FacebookProvider>
+    );
+  }
+}

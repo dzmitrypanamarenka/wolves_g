@@ -6,6 +6,7 @@ import BlogPreview from './BlogPreview';
 import Social from './Social';
 import Twitter from './Twitter';
 import Blog from './Blog';
+import Instagram from './Instagram';
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   Social,
   Twitter,
   Blog,
+  Instagram
 };

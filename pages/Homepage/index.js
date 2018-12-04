@@ -2,7 +2,7 @@ import React from 'react';
 import Vimeo from 'react-vimeo';
 import {Row, Col, Button} from 'antd';
 
-import { Layout, Social, Twitter } from '../../components';
+import { Layout, Social, Twitter, Instagram } from '../../components';
 import { PreviewContainer } from '../../containers'
 
 import './styles/index.scss';
@@ -20,19 +20,21 @@ export default () => <Layout>
             <div className='magazine-wrap'>
               <span className='title'>NEU!</span>
               <img src="/static/img/magazine.png" alt="magazine" className='img'/>
-              <p className='text'>
-                DAS <span className='color'>NEUE</span><br/>
-                <span className='color'>ONLINE MAGAZIN</span><br/>
-                ÜBER BRETTSPIELE,<br/>
-                KARTENSPIELE &<br/>
-                DIGITALE SPIELE!
-              </p>
-              <a href='https://gamingwolves.maglr.com/de_DE/9518/140701/cover.html' className='link'>
-                <div className='title-wrapper'>
-                    <h3 className='title'>gaming wolves</h3>
-                  <span className='text'>discover now</span>
-                </div>
-              </a>
+              <div className='wrap'>
+                <p className='text'>
+                  DAS <span className='color'>NEUE</span><br/>
+                  <span className='color'>ONLINE MAGAZIN</span><br/>
+                  ÜBER BRETTSPIELE,<br/>
+                  KARTENSPIELE &<br/>
+                  DIGITALE SPIELE!
+                </p>
+                <a href='https://gamingwolves.maglr.com/de_DE/9518/140701/cover.html' className='link'>
+                  <div className='title-wrapper'>
+                    <h3 className='title'>jetzt lesen</h3>
+                    <span className='text'>Ausgabe 1 | DEZ 18 - FEB 19</span>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
           <div className='blog'>
@@ -47,13 +49,12 @@ export default () => <Layout>
             <Social/>
           </div>
           <div className='wrapper'>
-            <h2 className='block-title'>TWITTER</h2>
+            <h2 className='block-title'>FACEBOOK</h2>
             <Twitter/>
           </div>
-          <div className='wrapper'>
+          <div className='wrapper' >
             <h2 className='block-title'>INSTAGRAM</h2>
-            <img className='img-inst' src='/static/img/Instagram1.png' alt='instagram image'></img>
-            <img className='img-inst' src='/static/img/Instagram2.png' alt='instagram image'></img>
+            <Instagram/>
           </div>
           <img src='/static/img/banner3.png' alt='banner'></img>
         </Col>

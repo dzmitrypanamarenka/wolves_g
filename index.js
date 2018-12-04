@@ -12,7 +12,7 @@ const handle = nextApp.getRequestHandler();
 // import passport from 'passport';
 // import passportLocal from 'passport-local';
 
-import config from './config/be_config'
+import config from './config/be_config';
 import routes from './server/routes';
 
 // const { Strategy } = passportLocal;
@@ -38,13 +38,13 @@ nextApp.prepare()
       saveUninitialized: false,
     }));
 
-    // app.use('/', routes);
-    app.get('/*', (req, res) => {
-      res.status(404)
-    });
-    app.get('/', (req, res) => {
-      res.status(404)
-    });
+    app.use('/', routes);
+    // app.get('/*', (req, res) => {
+    //   res.send(404)
+    // });
+    // app.get('/', (req, res) => {
+    //   res.status(404)
+    // });
     app.get('*', (req, res) => {
       return handle(req, res)
     });
