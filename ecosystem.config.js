@@ -11,7 +11,8 @@ module.exports = {
         key: '~/.ssh/wolvesg.pem',
         ref: '',
         repo: 'git@github.com:dzmitrypanamarenka/wolves_g.git',
-        path: '/home/ubuntu/wolves_g'
+        path: '/home/ubuntu/wolves_g',
+        'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
       }
     }
 };
