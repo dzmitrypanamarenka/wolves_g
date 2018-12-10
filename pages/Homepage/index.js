@@ -56,7 +56,6 @@ export default () => <Layout>
             <h2 className='block-title'>INSTAGRAM</h2>
             <Instagram/>
           </div>
-          <img src='/static/img/banner3.png' alt='banner'></img>
         </Col>
       </Row>
     </div>
