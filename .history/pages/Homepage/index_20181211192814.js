@@ -8,21 +8,15 @@ import { PreviewContainer } from '../../containers'
 import './styles/index.scss';
 import '../../node_modules/video-react/dist/video-react.css';
 
-const opts = {
-  playerVars: { 
-    autoplay: 1
-  }
-};
-
 export default () => <Layout>
     <div className="grid-wrapper">
       <Row className='container'>
         <Col span={18} className='main-content'>
           <div className='video'>
-            <YouTube videoId='3SAAKqntLYU' opts={opts}/>
+            <YouTube videoId='3SAAKqntLYU' opts=${playerVars: { autoplay: 1 }}/>
           </div>
           <div className='online-shop'>
-            <h2 className='block-title'>ONLINE-MAGAZIN</h2> 
+            <h2 className='block-title'>ONLINE-MAGAZIN</h2>
             <div className='magazine-wrap'>
               <span className='title'>NEU!</span>
               <img src="/static/img/magazine.png" alt="magazine" className='img'/>

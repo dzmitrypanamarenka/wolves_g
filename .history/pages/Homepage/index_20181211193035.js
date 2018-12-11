@@ -19,7 +19,7 @@ export default () => <Layout>
       <Row className='container'>
         <Col span={18} className='main-content'>
           <div className='video'>
-            <YouTube videoId='3SAAKqntLYU' opts={opts}/>
+            <YouTube videoId='3SAAKqntLYU' opts={ autoplay= 1 }/>
           </div>
           <div className='online-shop'>
             <h2 className='block-title'>ONLINE-MAGAZIN</h2> 

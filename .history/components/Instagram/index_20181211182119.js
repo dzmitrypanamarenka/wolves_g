@@ -17,9 +17,9 @@ export default class Instagram extends Component {
           sortBy='most-recent'
           target='instagram-app'
           template={template()}
-          userId='8337366379'
-          clientId='52d1a9e8e66641d6922f82068017c921'
-          accessToken='8337366379.1677ed0.a5e1d0695eb649f1a386406b73ae1c70'
+          userId='1069024226'
+          clientId='b0eefc0be2114c7ea7080f93d3eebbaa'
+          accessToken='1069024226.1677ed0.f4fcf143718e40bc9b89813315d6c6a5'
         />
       </div>
     )

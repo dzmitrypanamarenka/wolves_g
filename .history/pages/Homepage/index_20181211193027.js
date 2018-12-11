@@ -9,7 +9,9 @@ import './styles/index.scss';
 import '../../node_modules/video-react/dist/video-react.css';
 
 const opts = {
-  playerVars: { 
+  height: '390',
+  width: '640',
+  playerVars: { // https://developers.google.com/youtube/player_parameters
     autoplay: 1
   }
 };
@@ -19,7 +21,7 @@ export default () => <Layout>
       <Row className='container'>
         <Col span={18} className='main-content'>
           <div className='video'>
-            <YouTube videoId='3SAAKqntLYU' opts={opts}/>
+            <YouTube videoId='3SAAKqntLYU' opts={ autoplay= 1 }/>
           </div>
           <div className='online-shop'>
             <h2 className='block-title'>ONLINE-MAGAZIN</h2> 

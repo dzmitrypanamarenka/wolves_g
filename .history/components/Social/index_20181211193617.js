@@ -9,12 +9,12 @@ export default () => <div className='social-icons'>
     <Icon type="instagram" theme="outlined" className='icon'/>
   </a>
   <a href='#' className='icon-wrap'>
-    <Icon type="youtube" theme="outlined" className='icon'/>
+    <Icon type="twitter" theme="outlined" className='icon'/>
   </a>
   <a href='#' className='icon-wrap'>
     <Icon type="facebook" theme="outlined" className='icon'/>
   </a>
-  <a href='./coming-soon' className='icon-wrap'>
+  <a href='./' className='icon-wrap'>
     <Icon type="mail" theme="outlined" className='icon'/>
   </a>
   {/*<ReactSVG src="/static/img/Email.svg" />*/}

@@ -32,7 +32,7 @@ export default () => <Header className='main-header'>
                   </Link>
                 </li>
                 <li className="item">
-                  <Link href={"https://shop.spreadshirt.de/gaming-wolves/"}>
+                  <Link href={"https://shop.spreadshirt.de/gaming-wolves/`}>
                     <a className='title'>SHOP</a>
                   </Link>
                 </li>
