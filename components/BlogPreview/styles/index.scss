@@ -1,20 +1,34 @@
-.blog-content {
- & {
-   margin: 0 0 0;
- }
+@media screen and (min-width: 320px) {
+  .blog-content {
+    & {
+      margin: 0 0 0;
+    }
+   
+     > .ant-row >.item {
+       padding-bottom: 24px;
+       width: 100%;
+       
+     }
+   
+     > .ant-row > .item > .link > .img {
+       width: 100%;
+       height: 270px;
+       background-size: cover;
+       background-position: top center;
+   
+       &:hover {
+         opacity: .8;
+       }
+     }
+   }
+}
 
-  > .ant-row >.item {
-    padding-bottom: 24px;
-  }
-
-  > .ant-row > .item > .link > .img {
-    width: 100%;
-    height: 270px;
-    background-size: cover;
-    background-position: top center;
-
-    &:hover {
-      opacity: .8;
+@media screen and (min-width: 900px) {
+  .blog-content {
+    > .ant-row >.item {
+      width: 50%;
+      
     }
   }
 }
+

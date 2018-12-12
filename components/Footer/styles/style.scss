@@ -1,43 +1,65 @@
-.footer.ant-layout-footer {
-    & {
-        background: none;
-        padding: 0;
-        color: transparent;
-        font-size: 14px;
-    }
-
-    > .container {
-        display: flex;
-        background-color: #000000;
-        color: #ffffff;
-        font-size: 17px;
-        padding: 25px 40% 25px 70px;
-    }
-
-    > .container > .description > .title {
-        color: #ffa500;
-        font-size: 25px
-    }
-
-    > .container > .legal > .title {
-        color: #ffa500;
-        font-size: 25px;
-    }
-
-    > .container > .legal {
-        display: flex;
-        flex-direction: column;
-        margin-left: 75px;
-        line-height: 33px;
-    }
-
-    > .container > .legal > .link:hover > .title {
-        color: #ffa500;
-    }
-
-    > .container > .legal > .link > .title {
-        color: #ffffff;
-        font-size: 17px;
+@media screen and (min-width: 320px) {
+    .footer.ant-layout-footer {
+        & {
+            background: none;
+            padding: 0;
+            color: transparent;
+            font-size: 14px;
+        }
+    
+        > .container {
+            display: flex;
+            flex-direction: column;
+            background-color: #000000;
+            color: #ffffff;
+            font-size: 17px;
+            padding: 25px;
+        }
+    
+        > .container > .description {
+            z-index: 20;
+        }
+    
+        > .container > .description > .title {
+            color: #ffa500;
+            font-size: 25px
+        }
+    
+        > .container > .legal > .title {
+            color: #ffa500;
+            font-size: 25px;
+        }
+    
+        > .container > .legal {
+            display: flex;
+            flex-direction: column;
+            z-index: 20;
+            line-height: 33px;
+        }
+    
+        > .container > .legal > .link:hover > .title {
+            color: #ffa500;
+        }
+    
+        > .container > .legal > .link > .title {
+            color: #ffffff;
+            font-size: 17px;
+        }
     }
 }
+
+@media screen and (min-width: 900px) {
+    .footer.ant-layout-footer {
+        > .container {
+            padding: 25px 40% 25px 70px;
+            flex-direction: row;
+        }
+
+        > .container > .legal {
+            margin-left: 75px;
+        }
+    }
+
+}
+
 
