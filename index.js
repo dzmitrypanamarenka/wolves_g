@@ -38,13 +38,13 @@ nextApp.prepare()
       saveUninitialized: false,
     }));
 
-    // app.use('/', routes);
-    app.get('/*', (req, res) => {
-      res.send(404)
-    });
-    app.get('/', (req, res) => {
-      res.status(404)
-    });
+    app.use('/', routes);
+    // app.get('/*', (req, res) => {
+    //   res.send(404)
+    // });
+    // app.get('/', (req, res) => {
+    //   res.status(404)
+    // });
     app.get('*', (req, res) => {
       return handle(req, res)
     });
