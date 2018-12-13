@@ -3,7 +3,8 @@ import Vimeo from 'react-vimeo';
 import {Row, Col, Button} from 'antd';
 
 import { Layout, Social, Twitter, Instagram } from '../../components';
-import { PreviewContainer } from '../../containers'
+import { PreviewContainer } from '../../containers';
+import bannerRandom from './bannerRandom';
 
 import './styles/index.scss';
 import '../../node_modules/video-react/dist/video-react.css';
@@ -43,7 +44,7 @@ export default () => <Layout>
           </div>
         </Col>
         <Col span={6} className='sidebar'>
-          <div className='banner'><img src='/static/img/banner1.png' alt='banner'></img></div>
+          <div className='banner'>{bannerRandom()}</div>
           <div className='wrapper'>
             <h2 className='block-title'>FOLGT UNS AUF</h2>
             <Social/>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import './styles.scss';
 
-export const testPost = ({ _id, title, text }) => <section className={`${_id}-post post-wrap`}>
+const testPost = ({ _id, title, text }) => <section className={`${_id}-post post-wrap`}>
   <h3 className='title'>{ title }</h3>
   <p className='text'>{ text }</p>
   <Link href={`/blog/posts/${_id}`}>
@@ -11,7 +11,7 @@ export const testPost = ({ _id, title, text }) => <section className={`${_id}-po
   </Link>
 </section>
 
-export default () => <section className={`post-wrap`}>
+export const Post1 = () => <section className={`post-wrap`}>
   <h3 className='title'>
     Root angespielt
   </h3>
@@ -46,4 +46,96 @@ export default () => <section className={`post-wrap`}>
   <p className='text'>
     I ❤️ The Forest Rebels!
   </p>
-</section>
+</section>;
+
+export const Post2 = () => <section className={`post-wrap`}>
+  <h3 className='title'>
+    Ersteindruck Civilization - A New Dawn
+  </h3>
+  <div style={{backgroundImage: `url('../../static/img/civilization1.jpg')`}} className='img'></div>
+  <p className='text'>
+    Wir haben das Neue <b>CIVILIZATION - A NEW DAWN</b> von Fantasy Flight Games zu dritt angespielt. Sieht wunderschön aus und spielt sich deutlich schneller und angenehmer als sein Vorgänger. Das beste war aber, dass man es zu dritt sehr gut spielen kann. Da jeder Spieler auf jeden aufpassen muss, wodurch kein Nachteil entsteht.
+    Freu mich schon auf die nächsten Partien! 😊👍
+  </p>
+  <p className='text'>
+    <span style={{backgroundImage: `url('../../static/img/civilization2.jpg')`}} className='img -post -left'></span>
+    <b>PRO</b>:
+    - nicht so langatmig wie die vorige Version
+    - Spielmaterial Top
+    - Gameplay Top
+    - zu dritt gut Spielbar
+    - wer am Anfang zurück liegt, kann noch    aufholen
+    - variabler und nicht nur stur auf ein Weg zu verfolgen
+    - variabelster Spielaufbau als der Vorgänger
+    <br/>
+    <br/>
+    <b>CONTRA</b>:
+    - Würfel beim Kampf am Anfang (Glückskomponente)
+    - Weltwunder unterschiedlich stark
+    - manche Symbole etwas zu klein und dadurch nicht so gut ersichtlich
+  </p>
+</section>;
+
+export const Post3 = () => <section className={`post-wrap`}>
+  <h3 className='title'>
+    Ersteindruck von Roll Player
+  </h3>
+  <div style={{backgroundImage: `url('../../static/img/roll1.jpg')`}} className='img'></div>
+  <p className='text'>
+    <b>ROLL PLAYER</b>, welches auf deutsch bei Pegasus Spiele erscheint, konnte mich direkt in seinen Bann ziehen. Charaktere die man per Würfel erstellen muss, genial!
+    Man merkt schnell, dass hier die Kennerspieler angesprochen werden sollen. Denn es gibt hier 3 Bereiche, die man beachten muss, um seine Würfel gewinnbringend zu platzieren.
+    Dadurch ist es deutlich strategischer und anspruchsvoller als SAGRADA (Familienspiel).
+  </p>
+  <p className='text'>
+    <span style={{backgroundImage: `url('../../static/img/roll2.jpg')`}} className='img -post -left'></span>
+    <b>PRO:</b>
+    - tolles Gameplay
+    - viele strategische Möglichkeiten
+    - thematisch gut umgesetzt
+    - interessante Mechaniken
+    - interaktiv
+    <br/>
+    <br/>
+    <b>CONTRA:</b>
+    - Glücksfaktor
+  </p>
+</section>;
+
+export const Post4 = () => <section className={`post-wrap`}>
+  <h3 className='title'>
+    Impressionen von RISING SUN
+  </h3>
+  <div style={{backgroundImage: `url('../../static/img/rising1.jpg')`}} className='img'></div>
+  <p className='text'>
+    In Düsseldorf (Brettspielen Düsseldorf - Erklärvideos auf YouTube) spielte ich zu fünft RISING SUN von CMON / Asmodee Deutschland.
+  </p>
+  <p className='text'>
+    Ich bin Oliver Palisch sehr dankbar, weil er dazu aufrief, in die Rolle der Clans im mystischen Japan der Feudalzeit zu schlüpfen. Um seine Krieger in den Provinzen aufzustellen, die Ernte einzuholen und in den Krieg zu ziehen!
+    Es gehört immer noch zu meinen absoluten Lieblingsspielen. Auch wenn ich diesmal richtig schlecht war!
+  </p>
+  <p className='text'>
+    Durch die unterschiedlichen Klans, die strategischen Möglichkeiten während des Spiels, wie auch bei der Kampfphase und dem interessanten Diplomatie Aspekt, spielt sich jede Partie anders und unvorhersehbar.
+  </p>
+  <p className='text'>
+    <span style={{backgroundImage: `url('../../static/img/rising2.jpg')`}} className='img -post -left'></span>
+    Die einzelnen Phasen im Spiel, spielen sich unterschiedlich, interessant und zügig, außer es sitzen zu viele Grübler am Tisch! Ob Teezeremonie, wo die Spieler Bündnisse untereinander schließen.
+    Die Politikphase, wo man eines der 5 Aktionen durchführt (mehr oder wenig durch Zufall), inklusive dem verrechnen der Schrein-Boni, die man im Zug berücksichtigen sollte.
+    Die Kriegsphase, die sich für mich noch taktischer, strategischer und interessanter spielt, als bei Cry Havoc (die schon sehr gut war)!
+  </p>
+  <p className='text'>
+    Es spricht dadurch Kenner wie auch Vielspieler gleichermaßen an, aber auch Neueinsteiger kommen schnell zurecht und haben ihren Spaß!
+    Vom Spielmaterial und den wunderschönen Miniaturen, gehört es für mich zu dem besten, was der Brettspielmarkt zu bieten hat! Und ist somit jedes Mal aufs Neue ein Hochgenuss, auch wenn die größten Monster, nicht unbedingt die stärksten sind!
+  </p>
+  <p className='text'>
+    <span style={{backgroundImage: `url('../../static/img/rising3.jpg')`}} className='img -post -right'></span>
+    Mit jeder Fraktion kann man gewinnen, wenn man weiß wie man sie spielen muss. Was Oliver mit dem Gelben Klan (Bonsai), eindrucksvoll unter Beweis gestellt hat, die sich in meinen Augen, am schwierigsten spielt.
+    Ich würde jeden empfehlen, RISING SUN nur mit einer ungeraden Spieleranzahl zu spielen, da so der Diplomatie, wie auch der Verräter Aspekt am besten zur Geltung kommt!
+  </p>
+  <p className='text'>
+    RISING SUN ist vor allem extrem interaktiv, spannend, wunderschön und niemals langweilig! Für mich ist Eric M. Lang ein Experte im Bereich Mehrheiten zu Erreichen und Gebiete zu erkämpfen. Was er mit Blood Rage, eines meiner anderen Lieblingsspiele, schon bestens unter Beweis stellen konnte!
+    Ich würde es immer mitspielen und bin froh das ich es damals bei Kickstarter komplett gebackt hatte. Wer es auf Deutsch spielen möchte, kann dank Asmodee auch in den Genuss kommen.
+  </p>
+  <p className='text'>
+    Ich danke Oliver für den Aufruf, dass Spiel zu spielen. Genauso wie unserer tollen, unterhaltsamen und sympathischen Spielgruppe, die das Spiel überhaupt so unterhaltsam gemacht hatte.!
+  </p>
+</section>;

@@ -2,7 +2,9 @@ import React from 'react';
 import axios from 'axios';
 import { Form, Input, Button } from 'antd';
 
-import { Layout, Post } from '../../components';
+import { Post1, Post2, Post3, Post4 } from '../../components/Post';
+
+import { Layout } from '../../components';
 import './styles/index.scss';
 
 const FormItem = Form.Item;
@@ -20,37 +22,42 @@ class FormBlog extends React.Component {
     axios.post(`${url}/new`, values);
   };
   
-  componentUnmount() {
-    this.setState({ id: '' });
-  }
+  // componentUnmount() {
+  //   this.setState({ id: '' });
+  // }
   
-  componentDidMount() {
-    const { id } = this.props.router.query;
-    if(id){
-      this.setState({ id });
-      return this.props.fetchPosts(id);
-    }
-    return this.props.fetchPosts();
-  }
+  // componentDidMount() {
+  //   const { id } = this.props.router.query;
+  //   if(id){
+  //     this.setState({ id });
+  //     return this.props.fetchPosts(id);
+  //   }
+  //   return this.props.fetchPosts();
+  // }
   
   renderSinglePost = () => {
-    if(this.props.posts){
-      const { data } = this.props.posts;
-      return <Post key={data._id} {...data}/>
-    }
-    return null;
+    const { id } = this.props.router.query;
+    const match = {
+      '5bc5d0412376d54c29cfaadf': Post1,
+      '5bc11a25ba69710417eb8f01': Post2,
+      '5bc5cf7be0bcd84b492597c0': Post3,
+      '5bc5c04f91a7c73df8bfcd4e': Post4
+    };
+    return match[id]();
   };
   
-  renderAllPosts = () => {
-    if(this.props.posts){
-      const { data } = this.props.posts;
-      return data.map(el => <Post key={el._id} {...el}/>)
-    }
-    return null;
-  };
+  renderAllPosts = () => (
+    <div className='posts-wrap -all'>
+      <Post1/>
+      <Post2/>
+      <Post3/>
+      <Post4/>
+    </div>
+  );
   
   render () {
     const { getFieldDecorator } = this.props.form;
+    console.log(this.props.router.query)
     return <Layout>
       <div className="blog-wrap">
         {/*<Form onSubmit={this.onSubmit}>*/}
@@ -86,8 +93,7 @@ class FormBlog extends React.Component {
           {/*</FormItem>*/}
         {/*</Form>*/}
         <div className='posts-wrap'>
-          {/*{ this.state.id ? this.renderSinglePost() : this.renderAllPosts() }*/}
-          <Post/>
+          { this.props.router.query.id ? this.renderSinglePost() : this.renderAllPosts() }
         </div>
       </div>
     </Layout>
