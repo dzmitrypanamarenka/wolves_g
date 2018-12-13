@@ -57,6 +57,10 @@
       cursor: default;
     }
   }
+
+  .magazine-wrap > .wrap > .link > .title-wrapper {
+    max-width: 300px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
