@@ -10,8 +10,8 @@ import './styles/index.scss';
 import '../../node_modules/video-react/dist/video-react.css';
 
 const opts = {
-  playerVars: { 
-    autoplay: 1
+  playerVars: {
+    autoplay: 0
   }
 };
 
@@ -23,7 +23,7 @@ export default () => <Layout>
             <YouTube videoId='3SAAKqntLYU' opts={opts}/>
           </div>
           <div className='online-shop'>
-            <h2 className='block-title'>ONLINE-MAGAZIN</h2> 
+            <h2 className='block-title'>ONLINE-MAGAZIN</h2>
             <div className='magazine-wrap'>
               <span className='title'>NEU!</span>
               <img src="/static/img/magazine.png" alt="magazine" className='img'/>

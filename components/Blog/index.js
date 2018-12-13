@@ -57,7 +57,6 @@ class FormBlog extends React.Component {
   
   render () {
     const { getFieldDecorator } = this.props.form;
-    console.log(this.props.router.query)
     return <Layout>
       <div className="blog-wrap">
         {/*<Form onSubmit={this.onSubmit}>*/}

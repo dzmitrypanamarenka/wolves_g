@@ -31,8 +31,6 @@
     width: 100%;
   }
 
-
-
   .title-wrapper {
     display: flex;
     flex-direction: column;
@@ -42,11 +40,21 @@
     text-transform: uppercase;
     padding: 10px 0;
 
+    > .link {
+      width: 100%;
+    }
+
     > .link > .title {
       color: #ffffff;
       font-size: 30px;
       margin-bottom: 0;
       text-align: center;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      height: 45px;
+      width: 100%;
 
       &:hover {
         color: #000000;

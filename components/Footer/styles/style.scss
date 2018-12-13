@@ -6,7 +6,7 @@
             color: transparent;
             font-size: 14px;
         }
-    
+
         > .container {
             display: flex;
             flex-direction: column;
@@ -15,32 +15,32 @@
             font-size: 17px;
             padding: 25px;
         }
-    
+
         > .container > .description {
             z-index: 20;
         }
-    
+
         > .container > .description > .title {
             color: #ffa500;
             font-size: 25px
         }
-    
+
         > .container > .legal > .title {
             color: #ffa500;
             font-size: 25px;
         }
-    
+
         > .container > .legal {
             display: flex;
             flex-direction: column;
             z-index: 20;
             line-height: 33px;
         }
-    
+
         > .container > .legal > .link:hover > .title {
             color: #ffa500;
         }
-    
+
         > .container > .legal > .link > .title {
             color: #ffffff;
             font-size: 17px;

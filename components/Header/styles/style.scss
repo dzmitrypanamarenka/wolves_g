@@ -9,9 +9,9 @@
 
         > .container > .wrapper {
             background: #000000 url("/static/img/logo.png") no-repeat;
-            background-position-x: 30px;
+            background-position: center;
             background-size: contain;
-            height: 100px;
+            height: 150px;
         }
 
         > .container > .main-nav {
@@ -44,15 +44,7 @@
     }
 }
 
-@media screen and (min-width: 640px) {
-    .main-header.ant-layout-header {
-        > .container > .wrapper {
-            height: 175px;
-        }
-    }
-}
-
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 780px) {
     .main-header.ant-layout-header {
         > .container > .main-nav > .list {
             flex-direction: row;
@@ -60,6 +52,16 @@
 
         > .container > .main-nav > .list > .item {
             width: auto;
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .main-header.ant-layout-header {
+        > .container > .wrapper {
+            background-position-x: 30px;
+            background-size: contain;
+            height: 175px;
         }
     }
 }
