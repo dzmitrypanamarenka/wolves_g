@@ -10,8 +10,5 @@ const faviconOptions = {
 router.route('/').get((req, res) => {
   return nextApp.render(req, res, '/Homepage', req.query)
 });
-router.route('/favicon.ico').get((req, res) => {
-  res.status(200).sendFile('favicon.ico', faviconOptions)
-});
 
 export default router;
