@@ -32,8 +32,13 @@ export default () => <Header className='main-header'>
                   </Link>
                 </li>
                 <li className="item">
-                  <Link href={`/coming-soon`}>
+                  <Link href={"https://shop.spreadshirt.de/gaming-wolves/"}>
                     <a className='title'>SHOP</a>
+                  </Link>
+                </li>
+                <li className="item">
+                  <Link href={`/coming-soon`}>
+                    <a className='title'>UNTERSTÜTZEN</a>
                   </Link>
                 </li>
             </ul>
