@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon } from 'antd';
-// import ReactSVG from 'react-svg';
+import Link from 'next/link';
 
 import './styles/style.scss';
 
