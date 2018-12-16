@@ -2,9 +2,9 @@ import React from "react";
 
 export default () => {
   const matchSrc = {
-    0: '/static/img/small-banner1.jpg',
+    0: '/static/img/small-banner3.jpg',
     1: '/static/img/small-banner2.jpg',
-    2: '/static/img/small-banner3.jpg'
+    2: '/static/img/small-banner1.jpg'
   };
   const matchHref = {
     0: 'https://www.spiele-offensive.de/referrer.php?p=10&pid=483&bid=143',
