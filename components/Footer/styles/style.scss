@@ -20,12 +20,20 @@
             z-index: 20;
         }
 
+        > .container > .description > .text {
+            text-align: center;
+        }
+
         > .container > .description > .title {
+            display: flex;
+            justify-content: center;
             color: #ffa500;
             font-size: 25px
         }
 
         > .container > .legal > .title {
+            display: flex;
+            justify-content: center;
             color: #ffa500;
             font-size: 25px;
         }
@@ -35,6 +43,11 @@
             flex-direction: column;
             z-index: 20;
             line-height: 33px;
+        }
+
+        > .container > .legal > .link {
+            display: flex;
+            justify-content: center;
         }
 
         > .container > .legal > .link:hover > .title {
@@ -48,7 +61,37 @@
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 640px) {
+    .footer.ant-layout-footer {
+        > .container > .legal {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        > .container > .legal > .title {
+            width: 100%
+        }
+    }
+
+}
+
+@media screen and (min-width: 640px) {
+    .footer.ant-layout-footer {
+        > .container > .legal {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        > .container > .legal > .link.-impressum {
+            margin: 0 40px;
+        }
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
     .footer.ant-layout-footer {
         > .container {
             padding: 25px 40% 25px 70px;
@@ -56,7 +99,30 @@
         }
 
         > .container > .legal {
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: flex-start;
             margin-left: 75px;
+        }
+
+        > .container > .legal > .title {
+            justify-content: flex-start
+        }
+
+        > .container > .description > .title {
+            justify-content: flex-start
+        }
+
+        > .container > .legal > .link {
+            justify-content: flex-start;
+
+            &.-impressum {
+                margin: 0;
+            }
+        }
+
+        > .container > .description > .text {
+            text-align: left;
         }
     }
 

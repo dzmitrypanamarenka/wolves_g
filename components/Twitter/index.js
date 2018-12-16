@@ -22,7 +22,7 @@ export default class Twitter extends Component {
             showFacepile={false}
             smallHeader
             hideCover
-            // width='240px'
+            width='300px'
             // height='280px'
           />
         </div>

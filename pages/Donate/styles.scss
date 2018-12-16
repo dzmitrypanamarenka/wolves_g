@@ -1,0 +1,25 @@
+@media screen and (min-width: 320px) {
+    .static-container.-donate > .list {
+        padding: 0 20px;
+    }
+
+    .static-container.-donate > .list > .item {
+        margin-bottom: 10px;
+        list-style-type: none;
+    
+        &:before {
+            content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+            color: #ffa500; /* Change the color */
+            font-weight: bold; /* If you want it to be bold */
+            display: inline-block; /* Needed to add space between the bullet and the text */
+            width: 1em; /* Also needed for space (tweak if needed) */
+            margin-left: -1em; /* Also needed for space (tweak if needed) */
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .static-container.-donate > .list {
+        padding:0;
+    }
+}

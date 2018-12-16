@@ -1,5 +1,5 @@
 import React from 'react';
-import YouTube from 'react-youtube';
+import Video from '@u-wave/react-vimeo';
 import {Row, Col, Button} from 'antd';
 
 import { Layout, Social, Twitter, Instagram } from '../../components';
@@ -17,10 +17,10 @@ const opts = {
 
 export default () => <Layout>
     <div className="grid-wrapper">
-      <Row className='container'>
-        <Col span={18} className='main-content'>
+      <div className='container'>
+        <div className='main-content'>
           <div className='video'>
-            <YouTube videoId='3SAAKqntLYU' opts={opts}/>
+            <Video video='306598289'  />
           </div>
           <div className='online-shop'>
             <h2 className='block-title'>ONLINE-MAGAZIN</h2>
@@ -29,11 +29,7 @@ export default () => <Layout>
               <img src="/static/img/magazine.png" alt="magazine" className='img'/>
               <div className='wrap'>
                 <p className='text'>
-                  DAS <span className='color'>NEUE</span><br/>
-                  <span className='color'>ONLINE MAGAZIN</span><br/>
-                  ÜBER BRETTSPIELE,<br/>
-                  KARTENSPIELE &<br/>
-                  DIGITALE SPIELE!
+                  DAS<span className='color -new'>NEUE</span><span className='color -magazine'>ONLINE MAGAZIN</span>ÜBER BRETTSPIELE, KARTENSPIELE & DIGITALE SPIELE!
                 </p>
                 <a href='https://gamingwolves.maglr.com/de_DE/9518/140701/cover.html' className='link'>
                   <div className='title-wrapper'>
@@ -48,8 +44,8 @@ export default () => <Layout>
             <h2 className='block-title -blog'>BLOG</h2>
             <PreviewContainer/>
           </div>
-        </Col>
-        <Col span={6} className='sidebar'>
+        </div>
+        <div className='sidebar'>
           <div className='banner'>{bannerRandom()}</div>
           <div className='wrapper'>
             <h2 className='block-title'>FOLGT UNS AUF</h2>
@@ -63,7 +59,7 @@ export default () => <Layout>
             <h2 className='block-title'>INSTAGRAM</h2>
             <Instagram/>
           </div>
-        </Col>
-      </Row>
+        </div>
+      </div>
     </div>
 </Layout>;

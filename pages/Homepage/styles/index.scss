@@ -5,11 +5,19 @@
 
   .video {
     width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
   }
 
   .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 485px;
+    height: 100%;
   }
 
   .block-title {
@@ -46,10 +54,6 @@
   .block-title::after {
     left: 30px;
     margin-right: -50%;
-  }
-
-  .online-shop {
-    margin: 0 20px;
   }
 
   .blog {
@@ -110,7 +114,7 @@
       flex-wrap: wrap;
       align-items: center;
       position: relative;
-      padding: 25px 15px;
+      padding: 25px 15px 0;
       cursor: default;
     }
 
@@ -119,7 +123,7 @@
     }
 
     > .wrap > .text {
-      margin: 0 0 30px 30px;
+      margin: 30px 0;
       font-size: 28px;
       font-weight: 600;
       color: #000;
@@ -128,10 +132,18 @@
 
     > .wrap > .text > .color {
       color: #ffa500;
+
+      &.-magazine {
+        margin-right: 5px;
+      }
+
+      &.-new {
+        margin: 0 5px;
+      }
     }
 
     > .img {
-      width: 90%;
+      width: 100%;
     }
 
     > .wrap {
@@ -172,25 +184,13 @@
       padding: 25px 15px;
       cursor: default;
 
-      &:before {
-        content: '';
-        position: absolute;
-        top: -85px;
-        right: -85px;
-        border: 85px solid transparent;
-        border-bottom: 85px solid orange;
-        transform: rotate(45deg);
+      > .wrap > .text {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: inherit;
+        margin: 0 0 30px 30px;
+        width: 215px;
       }
-    }
-
-    > .title {
-      color: #ffffff;
-      position: absolute;
-      top: 2%;
-      right: 1%;
-      transform: rotate(45deg);
-      font-size: 36px;
-      font-weight: 600;
     }
 
     > .img {
@@ -211,17 +211,53 @@
         opacity: .8;
       }
     }
-
-    > .wrap > .text {
-      text-align: inherit
-    }
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
+  .grid-wrapper > .container {
+    display: flex;
+    width: 100%;
+  }
+
+  > .magazine-wrap {
+    > .title {
+      color: #ffffff;
+      position: absolute;
+      top: 2%;
+      right: 1%;
+      transform: rotate(45deg);
+      font-size: 36px;
+      font-weight: 600;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: -85px;
+      right: -85px;
+      border: 85px solid transparent;
+      border-bottom: 85px solid orange;
+      transform: rotate(45deg);
+    }
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+
+  .sidebar {
+    width: 25%;
+  }
+
   .sidebar > .banner {
     display: block;
   }
 }
+
+
+
 
 

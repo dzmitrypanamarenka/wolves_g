@@ -29,8 +29,8 @@ export default class BlogPreview extends React.Component {
     };
     
     return <div className="blog-content">
-      { chunkedPreviews.map(el => <Row key={_.uniqueId()} gutter={24}>
-        { el.map((e, i) => <Col key={_.uniqueId()} span='12' className='item'>
+      { chunkedPreviews.map(el => <div key={_.uniqueId()} className='wrap'>
+        { el.map((e, i) => <div key={_.uniqueId()} className='item'>
           <Link href={`/blog/posts/${e._id}`}>
             <a className='link'>
               <div className='img' style={e.styles}>
@@ -45,8 +45,8 @@ export default class BlogPreview extends React.Component {
             </Link>
             <span className='text'> { e.tag }</span>
           </div>
-        </Col>) }
-      </Row>) }
+        </div>) }
+      </div>) }
     </div>
   }
 }

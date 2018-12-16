@@ -8,10 +8,17 @@
         }
 
         > .container > .wrapper {
+            background: black;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        > .container > .wrapper > .logo {
             background: #000000 url("/static/img/logo.png") no-repeat;
-            background-position: center;
+            background-position-x: 10px;
             background-size: contain;
-            height: 150px;
+            height: 80px;
+            width: 80%;
         }
 
         > .container > .main-nav {
@@ -20,8 +27,9 @@
         }
 
         > .container > .main-nav > .list {
-            display: flex;
+            display: none;
             flex-direction: column;
+            justify-content: space-between;
             margin-bottom: 0;
             font-size: 18px;
         }
@@ -41,17 +49,88 @@
                 color: #000000;
             }
         }
+        
+
+                /* Position and sizing of burger button */
+        .bm-burger-button {
+            position: fixed;
+            width: 36px;
+            height: 30px;
+            right: 20px;
+            top: 26px;
+        }
+        
+        /* Color/shape of burger icon bars */
+        .bm-burger-bars {
+            background: #ffa500;
+        }
+        
+        /* Position and sizing of clickable cross button */
+        .bm-cross-button {
+            height: 24px;
+            width: 24px;
+        }
+        
+        /* Color/shape of close button cross */
+        .bm-cross {
+            background: #000000;
+        }
+        
+        /* General sidebar styles */
+        .bm-menu {
+            background: #ffa500;
+            padding: 2.5em 1.5em 0;
+            font-size: 1.15em;
+        }
+        
+        /* Morph shape necessary with bubble or elastic */
+        .bm-morph-shape {
+            fill: #373a47;
+        }
+        
+        /* Wrapper for item list */
+        .bm-item-list {
+            color: #000000;
+            padding: 0.8em;
+        }
+        
+        /* Individual item */
+        .bm-item {
+            display: inline-block;
+            color: #000000;
+            font-size: 20px;
+            line-height: 50px;
+            text-decoration: none;
+        }
+        
+        /* Styling of overlay */
+        .bm-overlay {
+            background: rgba(0, 0, 0, 0.3);
+        }
     }
 }
 
 @media screen and (min-width: 780px) {
     .main-header.ant-layout-header {
         > .container > .main-nav > .list {
+            display: flex;
             flex-direction: row;
         }
 
         > .container > .main-nav > .list > .item {
             width: auto;
+        }
+
+        > .container > .wrapper > .logo {
+            background: #000000 url("/static/img/logo.png") no-repeat;
+            background-position-x: 10px;
+            background-size: contain;
+            height: 150px;
+            width: 100%;
+        }
+
+        .bm-burger-button {
+            display: none;
         }
     }
 }
@@ -66,3 +145,10 @@
     }
 }
 
+@media screen and (min-width: 1100px) {
+    .main-header.ant-layout-header {
+        > .container > .main-nav > .list {
+            justify-content: flex-start;
+        }
+    }
+}

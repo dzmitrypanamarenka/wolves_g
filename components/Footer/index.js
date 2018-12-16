@@ -20,17 +20,17 @@ export default () => <Footer className='footer'>
         </div>
         <div className='legal'>
             <h3 className='title'>RECHTLICHES</h3>
-            <Link href={`/coming-soon`}>
+            <Link href={`/contact`}>
               <a className='link'>
                 <h3 className='title'>Kontakt</h3>
               </a>
             </Link>
-            <Link href={`/coming-soon`}>
-              <a className='link'>
+            <Link href={`/impressum`}>
+              <a className='link -impressum'>
                 <h3 className='title'>Impressum</h3>
               </a>
             </Link>
-            <Link href={`/coming-soon`}>
+            <Link href={`/legal`}>
               <a className='link'>
                 <h3 className='title'>Datenschutzerklärung</h3>
               </a>
