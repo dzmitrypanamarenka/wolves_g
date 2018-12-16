@@ -6,6 +6,7 @@ import './styles.scss';
 export default () => (<Layout>
     <div className='static-container -donate'>
         <h1 className='title -main'>Unterstützen</h1>
+        <h3 className='title -sub'>Wenn dir unser Projekt am Herzen liegt, kannst du uns gerne durch Patreon unterstützen!</h3>
         <h3 className='title -sub'>Warum Patreon?</h3>
         <p>Wir hatten viele Ideen und Konzepte wie bspw. ein Bezahlsystem über Kickstarter. Wir denken aber, dass Patreon der beste Weg ist das Magazin langfristig aufzubauen. Hier können wir Euch direkt von Anfang an mit einbeziehen.
             Um dies alles zu realisieren und eine feste Größe in der Spielebranche zu werden, brauchen wir Eure Unterstützung. Dazu haben wir uns gedacht, dass wenn Ihr uns unterstützt, sollt Ihr auch etwas zurückerhalten – als großes Dankschön! Es wird bei uns vieles geben das Ihr geschenkt bekommt und gewinnen könnt. Gleichzeitig binden wir Euch als Community mit ein, so dass Ihr mit dazu beiträgt, das Magazin und die veröffentlichten Artikel über Spiele nach Euren Wünschen mitzugestalten!

@@ -14,7 +14,9 @@ export default () => <div className='social-icons'>
   <a href='https://www.facebook.com/GamingWolves/ ' className='icon-wrap'>
     <Icon type="facebook" theme="outlined" className='icon'/>
   </a>
-  <a href='./coming-soon' className='icon-wrap'>
-    <Icon type="mail" theme="outlined" className='icon'/>
-  </a>
+  <Link href={`/contact`}>
+    <a className='icon-wrap'>
+      <Icon type="mail" theme="outlined" className='icon'/>
+    </a>
+  </Link>  
 </div>;
