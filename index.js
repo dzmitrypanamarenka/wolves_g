@@ -16,7 +16,7 @@ import config from './config/be_config';
 import routes from './server/routes';
 
 // const { Strategy } = passportLocal;
-
+process.env.NODE_ENV = 'production';
 const {
   port,
   dbURL,
@@ -57,7 +57,7 @@ nextApp.prepare()
 // passport.deserializeUser(User.deserializeUser());
 
     // app.use('/', routes);
-
+    console.log(process.env.NODE_ENV)
     mongoose.connect(mongoDbURI, dbOptions);
     mongoose.connection
       .once('open', () => {
