@@ -22,7 +22,7 @@ export default () => <Header className='main-header'>
                 </li>
                 <li className="item">
                   <Link href={`/blog`}>
-                    <a className='title'>BLOG</a>
+                    <a className='title'>ANGESPIELT</a>
                   </Link>
                 </li>
                 <li className="item">
