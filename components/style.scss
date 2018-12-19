@@ -1,4 +1,23 @@
 @media screen and (min-width: 320px) {
+  body {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    background: #000000;
+  }
+  
+  #__next {
+    display: flex;
+    justify-content: center;
+    background-color: #373636;
+  }
+  
+  .ant-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1150px;
+  }
+  
   ul {
     margin: 0;
     padding: 0;

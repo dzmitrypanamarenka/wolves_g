@@ -1,6 +1,5 @@
 import React from 'react';
 import { Layout } from 'antd';
-import './styles/style.scss';
 import Link from "next/link";
 
 const { Footer } = Layout;

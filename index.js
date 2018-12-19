@@ -33,13 +33,13 @@ nextApp.prepare()
     app.use(bodyParser.json());
     app.use(cors());
 
-    // app.use('/', routes);
-    app.get('/*', (req, res) => {
-      res.redirect('https://magazine.gamingwolves.net');
-    });
-    app.get('/', (req, res) => {
-      res.redirect('https://magazine.gamingwolves.net')
-    });
+    app.use('/', routes);
+    // app.get('/*', (req, res) => {
+    //   res.redirect('https://magazine.gamingwolves.net');
+    // });
+    // app.get('/', (req, res) => {
+    //   res.redirect('https://magazine.gamingwolves.net')
+    // });
     app.get('*', (req, res) => {
       return handle(req, res)
     });

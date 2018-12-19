@@ -2,10 +2,11 @@ import React from 'react';
 import { Layout } from 'antd';
 
 import '../normalize.scss';
-import '../style.scss';
 import 'antd/dist/antd.css';
 import '../fonts.scss';
-import './styles.scss';
+import '../style.scss';
+import '../Header/styles/style.scss';
+import '../Footer/styles/style.scss';
 
 import { Header, Footer } from '../';
 

@@ -3,8 +3,6 @@ import { Layout, Row, Col } from 'antd';
 import { slide as Menu } from 'react-burger-menu'
 import Link from 'next/link';
 
-import './styles/style.scss';
-
 const { Header } = Layout;
 
 export default () => <Header className='main-header'>
