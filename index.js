@@ -32,11 +32,6 @@ nextApp.prepare()
     app.use(morgan('combined'));
     app.use(bodyParser.json());
     app.use(cors());
-    app.use(session({
-      secret: 'emergency secret',
-      resave: false,
-      saveUninitialized: false,
-    }));
 
     app.use('/', routes);
     // app.get('/*', (req, res) => {
