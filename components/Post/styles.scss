@@ -1,63 +1,86 @@
-.post-wrap {
-  & {
-    display: flex;
-    flex-direction: column;
-    margin: 0 7%;
-    padding: 40px 0;
-  }
-
-  > .title {
-    display: flex;
-    justify-content: center;
-    font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 600;
-    color: rgba(0,0,0,.84);
-    line-height: 1.04;
-    letter-spacing: -.015em;
-    text-transform: capitalize;
-  }
-
-  > .text {
-    display: block;
-    font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 400;
-    color: rgba(0,0,0,.84);
-    overflow-wrap: break-word;
-    text-rendering: optimizelegibility;
-    letter-spacing: -0.063px;
-    line-height: 33.18px;
-  }
-
-  .img {
-    height: 60vh;
-    min-height: 500px;
-    background-position: 56% 44%;
-    background-size: cover;
-    background-origin: border-box;
-    margin: 20px 0;
-
-    &.-post {
-      display: inline-block;
-      height: 40vh;
-      min-height: 300px;
-      width: 50%;
-      margin: 0;
-
-      &.-left {
-        float: left;
-        margin-right: 20px;
+@media screen and (min-width: 320px) {
+  .post-wrap {
+    & {
+      display: flex;
+      flex-direction: column;
+      margin: 0 3%;
+      padding: 40px 0;
+    }
+  
+    > .title {
+      display: flex;
+      justify-content: center;
+      font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 600;
+      color: rgba(0,0,0,.84);
+      line-height: 1.04;
+      letter-spacing: -.015em;
+      text-transform: capitalize;
+    }
+  
+    > .text {
+      display: block;
+      font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 400;
+      color: rgba(0,0,0,.84);
+      overflow-wrap: break-word;
+      text-rendering: optimizelegibility;
+      letter-spacing: -0.063px;
+      line-height: 33.18px;
+    }
+  
+    .img {
+      height: 25vh;
+      background-position: 56% 44%;
+      background-size: cover;
+      background-origin: border-box;
+      margin: 20px 0;
+  
+      &.-post {
+        display: block;
+        height: 25vh;
+        min-height: 200px;
+        width: auto;
+        margin: 0 0 20px;
       }
+  
+  
+    }
+  }  
+}
 
-      &.-right {
-        float: right;
-        margin-left: 20px;
-      }
+@media screen and (min-width: 900px) {
+  .post-wrap {
+    & {
+      margin: 0 5%;
     }
 
+    .img {
+      height: 60vh;
+      min-height: 500px;
 
-  }
+      &.-post {
+        display: inline-block;
+        height: 40vh;
+        min-height: 300px;
+        width: 50%;
+        margin: 0;
+  
+        &.-left {
+          float: left;
+          margin-right: 20px;
+        }
+  
+        &.-right {
+          float: right;
+          margin-left: 20px;
+        }
+      }
+    }
+  }  
 }
+

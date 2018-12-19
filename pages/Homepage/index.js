@@ -31,7 +31,7 @@ export default () => <Layout>
                 <p className='text'>
                   DAS<span className='color -new'>NEUE</span><span className='color -magazine'>ONLINE MAGAZIN</span>ÜBER BRETTSPIELE, KARTENSPIELE & DIGITALE SPIELE!
                 </p>
-                <a href='https://gamingwolves.maglr.com/de_DE/9518/140701/cover.html' className='link'>
+                <a href='https://magazine.gamingwolves.net' className='link'>
                   <div className='title-wrapper'>
                     <h3 className='title'>jetzt lesen</h3>
                     <span className='text'>Ausgabe 1 | DEZ 18 - FEB 19</span>
