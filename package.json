@@ -7,7 +7,7 @@
     "next-start": "npm run build && npm run start",
     "build": "next build",
     "start-this": "nodemon -r @babel/register ./index.js",
-    "start": "NODE_ENV=production node -r @babel/register ./index.js",
+    "start": "NODE_ENV=production node --max-semi-space-size=32 --max-old-space-size=128 -r @babel/register ./index.js",
     "deploy": "pm2 deploy ecosystem.config.js production",
     "restart": "pm2 startOrRestart ecosystem.config.js"
   },

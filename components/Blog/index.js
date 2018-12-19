@@ -11,11 +11,7 @@ const FormItem = Form.Item;
 const TextArea = Input.TextArea;
 const url = 'https://lit-island-20029.herokuapp.com/blog';
 
-class FormBlog extends React.Component {
-  state = {
-    id: ''
-  };
-  
+class FormBlog extends React.Component {  
   onSubmit = (e) => {
     e.preventDefault();
     const values = this.props.form.getFieldsValue();
