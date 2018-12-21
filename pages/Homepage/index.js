@@ -41,7 +41,7 @@ export default () => <Layout>
             </div>
           </div>
           <div className='blog'>
-            <h2 className='block-title -blog'>BLOG</h2>
+            <h2 className='block-title -blog'>ANGESPIELT</h2>
             <PreviewContainer/>
           </div>
         </div>
