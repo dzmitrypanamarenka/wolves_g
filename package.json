@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "next-start": "npm run build && npm run start",
+    "test-prod": "npm run build && npm run start",
     "build": "next build",
     "start-this": "nodemon -r @babel/register ./index.js",
     "start": "NODE_ENV=production node -r @babel/register ./index.js",

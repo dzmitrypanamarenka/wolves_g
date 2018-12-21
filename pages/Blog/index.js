@@ -1,4 +1,4 @@
 import { withRouter } from 'next/router';
-import { BlogContainer } from '../../containers';
+import { Blog } from '../../components';
 
-export default withRouter(BlogContainer);
+export default withRouter(Blog);

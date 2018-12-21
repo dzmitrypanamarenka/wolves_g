@@ -4,21 +4,21 @@
     font-weight: 400;
     background: #000000;
   }
-  
+
   #__next {
     display: flex;
     justify-content: center;
     min-height: 100%;
     background-color: #373636;
   }
-  
+
   .ant-layout {
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 1150px;
   }
-  
+
   ul {
     margin: 0;
     padding: 0;
@@ -37,6 +37,11 @@
     text-decoration: none;
   }
 
+  .ant-layout-content {
+    display: flex;
+    justify-content: center;
+  }
+
   .ant-layout-content .ant-row.container {
     height: 100%;
     display: flex;
@@ -49,7 +54,7 @@
 
   .ant-layout-content .ant-row.container > .ant-col-6 {
     width: 100%;
-  }  
+  }
 
   .title-wrapper {
     display: flex;
@@ -92,7 +97,7 @@
   }
 }
 
-@media screen and (min-width: 320px) {  
+@media screen and (min-width: 320px) {
   .static-container {
     width: 100%;
     padding: 50px 20px;

@@ -83,24 +83,25 @@ export const Post3 = () => <section className={`post-wrap`}>
   <div style={{backgroundImage: `url('../../static/img/roll1.jpg')`}} className='img'></div>
   <p className='text'>
     Gestern das erste <b>Mal Gloomhaven</b> gespielt, hat richtig Bock gemacht! I ❤️it!
-    Ein Kumpel und ich, sind neu und mitten im Abenteuer eingestiegen, was gar kein Problem gemacht hat, sehr nice! 👍    
-  </p>
-  <p className='text'>
-    Mich hat es direkt in seinem Bann gezogen.
-    Vor allem die Art und Weise, wie man sein persönliches Kartendeck spielt. Denn man muss jedes Mal entscheiden, ob man die Aktion (auf den Karten - 2 Optionen) verwendet, die anschließend auf dem Ablagestapel gelegt wird oder ein mächtigere Aktion, die man dann aber ganz aus diesem Spiel verliert! Mega!
-  </p>
-  <p className='text'>
-    Dazu zieht man vor jedem Abenteuer 2 Karten, wo man sich eine aussucht, die eine Aufgabe bereithält. Wenn man diese erfolgreich absolviert bekommt man am Ende einen Bonus!
+    Ein Kumpel und ich, sind neu und mitten im Abenteuer eingestiegen, was gar kein Problem gemacht hat, sehr nice! 👍
   </p>
   <p className='text'>
     <span style={{backgroundImage: `url('../../static/img/roll2.jpg')`}} className='img -post -left'></span>
+    Mich hat es direkt in seinem Bann gezogen.
+    Vor allem die Art und Weise, wie man sein persönliches Kartendeck spielt. Denn man muss jedes Mal entscheiden, ob man die Aktion (auf den Karten - 2 Optionen) verwendet, die anschließend auf dem Ablagestapel gelegt wird oder ein mächtigere Aktion, die man dann aber ganz aus diesem Spiel verliert! Mega!
+    Dazu zieht man vor jedem Abenteuer 2 Karten, wo man sich eine aussucht, die eine Aufgabe bereithält. Wenn man diese erfolgreich absolviert bekommt man am Ende einen Bonus!
+  </p>
+  <p className='text'>
+  
+  </p>
+  <p className='text'>
+    <span style={{backgroundImage: `url('../../static/img/roll3.jpg')`}} className='img -post -right'></span>
     Das führte zu lustigen Reaktionen meiner Mitspieler und Gesichtsausdrücke!
-    Denn ich spiele einen Supporter und alle dachten sich, was steht der in vorderster Front!?! 
+    Denn ich spiele einen Supporter und alle dachten sich, was steht der in vorderster Front!?!
     Dann hab ich auch noch die Karte ausgespielt, mit der niedrigsten Zahl, somit höchste Initiative und habe angegriffen!
     Boom 💥 ! Wham ! Bam! Shazzam!
     Einen Elite getötet und 2 schwer verwundet und bewegungsfähig gemacht!
-  </p>
-  <p className='text'>
+  
     Die anschließenden Gesichter meiner Mitspieler, waren Gold wert! Hab mein Ziel erfüllt (Zielkarte) Was besagte, töte den ersten Gegner!
   </p>
   <p className='text'>

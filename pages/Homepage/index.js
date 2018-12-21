@@ -20,7 +20,7 @@ export default () => <Layout>
       <div className='container'>
         <div className='main-content'>
           <div className='video'>
-            <Video video='306598289'  />
+            <Video video='306598289'/>
           </div>
           <div className='online-shop'>
             <h2 className='block-title'>ONLINE-MAGAZIN</h2>
