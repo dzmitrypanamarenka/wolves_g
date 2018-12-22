@@ -13,9 +13,9 @@ export default () => (<Layout>
       <p className='text'>
         <span className='part'>
           Verspielte Grüße,
-        </span> 
+        </span>
         <span className='part'>
-          wir sind Tatsiana Filipovich, Tobias Franken und Team und wir sind begeistert, Euch unser neues Projekt GAMING WOLVES vorzustellen! GAMING WOLVES ist ein neues digitales Gaming Magazin von Gamern für Gamer! Wir berichten über Brett-, Karten- und Digital-Spiele. Das Magazin erscheint alle drei Monate und wird hauptsächlich Kenner,- Viel- und Expertenspieler ansprechen, aber natürlich ist jeder Spielbegeisterte herzlich im Rudel willkommen!
+          wir sind Tatsiana Filipovich, Tobias Franken und Team und wir sind begeistert, Euch unser neues Projekt GAMING WOLVES vorzustellen! GAMING WOLVES ist ein neues online Gaming Magazin von Gamern für Gamer! Wir berichten über Brett-, Karten- und Digital-Spiele. Das Magazin erscheint alle drei Monate und wird hauptsächlich Kenner,- Viel- und Expertenspieler ansprechen, aber natürlich ist jeder Spielbegeisterte herzlich im Rudel willkommen!
         </span>
         <span className='part'>
           Die Idee von GAMING WOLVES ist zum einen, der Community ein ganz neues visuelles Leseerlebnis zu bieten: mit spannenden Animationen, Videos und natürlich interessanten und informativen Artikeln. Gleichzeitig ist es uns ein großes Anliegen, die Community und Akteure / Spiele-begeisterte/Influencer unterschiedlichster Plattformen wie YouTube, Blogs und Podcasts mit deren individuellen Stärken einzubinden.
@@ -32,7 +32,7 @@ export default () => (<Layout>
       <p className='text'>
         <span className='part'>
           Verspielte Grüße,
-        </span> 
+        </span>
         <span className='part'>
           wir sind Tatsiana Filipovich, Tobias Franken und Team und wir sind begeistert, Euch unser neues Projekt GAMING WOLVES vorzustellen! GAMING WOLVES ist ein neues digitales Gaming Magazin von Gamern für Gamer! Wir berichten über Brett-, Karten- und Digital-Spiele. Das Magazin erscheint alle drei Monate und wird hauptsächlich Kenner,- Viel- und Expertenspieler ansprechen, aber natürlich ist jeder Spielbegeisterte herzlich im Rudel willkommen!
         </span>

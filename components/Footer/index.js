@@ -8,13 +8,7 @@ export default () => <Footer className='footer'>
     <div className='container'>
         <div className='description'>
             <h3 className='title'>GAMING WOLVES</h3>
-            <p className='text'>GAMING WOLVES ist ein Online-Magazin über Brett-und Kartenspiele,
-                wie auch Digitale Spiele. Das Online-Magazin erscheint vierteljährlich
-                und es werden zwischendurch Berichte „Angespielt“ erscheinen, die
-                euch unsere Ersteindrücke über die jeweiligen Spiele geben werden.
-                Die Idee ist,Euch Spiele interaktiv und anders zu präsentieren,
-                so dass ihr diese ganz neu erleben und wahrnehmen könnt.
-                Dabei wünschen wir euch ganz viel Spaß!
+            <p className='text'>GAMING WOLVES ist ein neues online Gaming Magazin über Brett-, Karten- und Digital-Spiele. Das Magazin ist kostenlos und erscheint alle drei Monate. Die Idee von GAMING WOLVES ist zum einen, Spiele interaktiv und anders zu präsentieren. Zum anderen wollen wir die Community und die unterschiedlichen Plattformen wie YouTube, Blogs und Podcasts einbinden, sodass man sich vom Spiel ein besseres Bild machen kann und gleichzeitig neue Kanäle entdeckt. Wir wünschen euch viel Spaß beim lesen!
             </p>
         </div>
         <div className='legal'>

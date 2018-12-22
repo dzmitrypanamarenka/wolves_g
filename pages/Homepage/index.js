@@ -59,6 +59,14 @@ export default () => <Layout>
             <h2 className='block-title'>INSTAGRAM</h2>
             <Instagram/>
           </div>
+          <div className='wrapper -sponsors' >
+            <h2 className='block-title -sponsors'>Unterstützt von</h2>
+            <div className='image-wrap'>
+              <a href='https://www.spiele-offensive.de' className='img' style={{backgroundImage: "url('/static/img/sponsors2.jpg')"}}/>
+              <a href='https://www.blackfire.eu/' className='img' style={{backgroundImage: "url('/static/img/sponsors1.png')"}}/>
+              <a href='http://www.magestore.de/' className='img' style={{backgroundImage: "url('/static/img/sponsors3.jpg')"}}/>
+            </div>
+          </div>
         </div>
       </div>
     </div>
