@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{415:function(e,n,t){__NEXT_REGISTER_PAGE("/Team",function(){return e.exports=t(416),{page:e.exports.default}})},416:function(e,n,t){"use strict";t.r(n);var a=t(0),r=t.n(a);n.default=function(){return r.a.createElement("div",{className:"wrap"},"Team")}}},[[415,1,0]]]);
