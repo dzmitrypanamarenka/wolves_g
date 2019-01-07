@@ -147,6 +147,16 @@
     color: #ffffff;
   }
 
+  .wrapper.-tolerance {
+    margin-bottom: 20px;
+  }
+
+  .wrapper.-tolerance > .img {
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+  }
+
   .magazine-wrap {
     & {
       display: flex;

@@ -41,7 +41,7 @@ export default () => <Layout>
             </div>
           </div>
           <div className='blog'>
-            <h2 className='block-title -blog'>ANGESPIELT</h2>
+            <h2 className='block-title -blog'>BLOG</h2>
             <PreviewContainer/>
           </div>
         </div>
@@ -58,6 +58,10 @@ export default () => <Layout>
           <div className='wrapper' >
             <h2 className='block-title'>INSTAGRAM</h2>
             <Instagram/>
+          </div>
+          <div className='wrapper -tolerance' >
+            <h2 className='block-title -sponsors'>TOLERANZ</h2>
+            <div className='img' style={{backgroundImage: "url('/static/img/tolerance.jpg')"}}></div>
           </div>
           <div className='wrapper -sponsors' >
             <h2 className='block-title -sponsors'>Unterstützt von</h2>

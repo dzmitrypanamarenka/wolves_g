@@ -44,7 +44,24 @@ router.route('/preview').get((req, res) => {
     .find({})
     .limit(4)
     .exec((err, posts) => {
-      res.json(posts);
+      const result = posts.reduce((acc, el, i) => i === posts.length -1
+        ? [el, ...acc]
+        : [...acc, el],
+        []);
+      res.json(result);
+    })
+});
+
+router.route('/preview/all').get((req, res) => {
+  Post
+    .find({})
+    .limit(999)
+    .exec((err, posts) => {
+      const result = posts.reduce((acc, el, i) => i === posts.length -2
+        ? [el, ...acc]
+        : [...acc, el],
+        []);
+      res.json(result);
     })
 });
 

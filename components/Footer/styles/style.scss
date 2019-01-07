@@ -54,8 +54,17 @@
             color: #ffa500;
         }
 
+        > .container > .legal > .link:hover > .title.-active {
+            color: #ffffff;
+        }
+
         > .container > .legal > .link > .title {
             color: #ffffff;
+            font-size: 17px;
+        }
+
+        > .container > .legal > .link > .title.-active {
+            color: #ffa500;
             font-size: 17px;
         }
     }

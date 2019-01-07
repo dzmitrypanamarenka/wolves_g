@@ -1,5 +1,4 @@
 import React from 'react';
-import {Row, Col} from 'antd';
 import _ from 'lodash';
 
 import './styles/index.scss';
@@ -17,6 +16,10 @@ const setImages = (previews) => {
 export default class BlogPreview extends React.Component {
   
   componentDidMount() {
+    const { route } = this.props.router;
+    if (route === '/Blog') {
+      return this.props.fetchPreviewPosts('all');
+    }
     this.props.fetchPreviewPosts();
   }
   

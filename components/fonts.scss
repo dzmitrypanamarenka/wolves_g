@@ -21,3 +21,19 @@
     src: url('../static/fonts/Oswald-Regular.ttf') format('ttf'),
     url('../static/fonts/Oswald-Regular.woff') format('woff');
 }
+
+@font-face {
+    font-weight: 600;
+    font-family: 'Roboto';
+    font-style: normal;
+    src: url('../static/fonts/Roboto-Bold.ttf') format('ttf'),
+    url('../static/fonts/Roboto-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: 'Roboto';
+    font-style: normal;
+    src: url('../static/fonts/Roboto-Regular.ttf') format('ttf'),
+    url('../static/fonts/Roboto-Regular.woff') format('woff');
+}
