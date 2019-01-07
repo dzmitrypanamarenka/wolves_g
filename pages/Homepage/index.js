@@ -60,7 +60,7 @@ export default () => <Layout>
             <Instagram/>
           </div>
           <div className='wrapper -tolerance' >
-            <h2 className='block-title -sponsors'>TOLERANZ</h2>
+            <h2 className='block-title -sponsors'>WIR SIND FÜR</h2>
             <div className='img' style={{backgroundImage: "url('/static/img/tolerance.jpg')"}}></div>
           </div>
           <div className='wrapper -sponsors' >

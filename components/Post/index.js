@@ -16,7 +16,7 @@ export const Post1 = () => <section className={`post-wrap`}>
   <Link href={`/blog`}>
     <a className='link'>
       <Icon type='left' className='icon'/>
-      <span className='title'>Alle Artikel</span>
+      <span className='title'>alle Artikel</span>
     </a>
   </Link>
   <h3 className='title'>
@@ -59,7 +59,7 @@ export const Post2 = () => <section className={`post-wrap`}>
   <Link href={`/blog`}>
     <a className='link'>
       <Icon type='left' className='icon'/>
-      <span className='title'>Alle Artikel</span>
+      <span className='title'>alle Artikel</span>
     </a>
   </Link>
   <h3 className='title'>
@@ -93,7 +93,7 @@ export const Post3 = () => <section className={`post-wrap`}>
   <Link href={`/blog`}>
     <a className='link'>
       <Icon type='left' className='icon'/>
-      <span className='title'>Alle Artikel</span>
+      <span className='title'>alle Artikel</span>
     </a>
   </Link>
   <h3 className='title'>
@@ -133,7 +133,7 @@ export const Post4 = () => <section className={`post-wrap`}>
   <Link href={`/blog`}>
     <a className='link'>
       <Icon type='left' className='icon'/>
-      <span className='title'>Alle Artikel</span>
+      <span className='title'>alle Artikel</span>
     </a>
   </Link>
   <h3 className='title'>
@@ -178,7 +178,7 @@ export const Post5 = () => <section className={`post-wrap`}>
   <Link href={`/blog`}>
     <a className='link'>
       <Icon type='left' className='icon'/>
-      <span className='title'>Alle Artikel</span>
+      <span className='title'>alle Artikel</span>
     </a>
   </Link>
   <h3 className='title'>

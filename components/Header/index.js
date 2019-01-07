@@ -14,7 +14,11 @@ class HeaderNav extends React.Component {
     return <Header className='main-header'>
       <div className= 'container'  >
         <div className = "wrapper">
-          <div className='logo'></div>
+          <Link href={`/`}>
+            <a className='link'>
+              <div className='logo'></div>
+            </a>
+          </Link>
         </div>
         <div className='main-nav'>
           <ul className="list">

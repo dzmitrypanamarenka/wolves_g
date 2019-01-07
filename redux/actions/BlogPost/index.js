@@ -9,8 +9,8 @@ export const fetchPosts = (id = null) => async (dispatch) => {
     dispatch(fetchPostsRequest());
     try {
       // const url = 'http://ec2-18-223-109-21.us-east-2.compute.amazonaws.com/blog/posts';
-      // const url = 'http://localhost:3000/blog/posts';
-      const url = 'https://sheltered-sierra-42301.herokuapp.com/blog/posts';
+      const url = 'http://localhost:3000/blog/posts';
+      // const url = 'https://sheltered-sierra-42301.herokuapp.com/blog/posts';
       let data;
       if(id){
         data = await axios.post(url, { id });

@@ -13,12 +13,17 @@
             justify-content: flex-start;
         }
 
-        > .container > .wrapper > .logo {
+        > .container > .wrapper > .link {
+            height: 80px;
+            width: 260px;
+        }
+
+        > .container > .wrapper > .link >.logo {
             background: #000000 url("/static/img/logo.png") no-repeat;
             background-position-x: 10px;
             background-size: contain;
-            height: 80px;
-            width: 80%;
+            height: inherit;
+            width: inherit;
         }
 
         > .container > .main-nav {
@@ -52,10 +57,6 @@
 
         > .container > .main-nav > .list > .item > .title.-active {
             color: #000000;
-
-            &:hover {
-                color: #ffffff;
-            }
         }
 
                 /* Position and sizing of burger button */
@@ -133,12 +134,17 @@
             width: auto;
         }
 
-        > .container > .wrapper > .logo {
+        > .container > .wrapper > .link {
+            height: 150px;
+            width: 470px;
+        }
+
+        > .container > .wrapper > .link > .logo {
             background: #000000 url("/static/img/logo.png") no-repeat;
             background-position-x: 10px;
             background-size: contain;
-            height: 150px;
-            width: 100%;
+            height: inherit;
+            width: inherit;
         }
 
         .bm-burger-button {

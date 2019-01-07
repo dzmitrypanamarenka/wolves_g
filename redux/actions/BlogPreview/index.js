@@ -9,8 +9,8 @@ export const fetchPreviewPosts = (all) => async (dispatch) => {
   dispatch(fetchPreviewRequest());
   try {
     // let url = 'http://ec2-18-223-109-21.us-east-2.compute.amazonaws.com/blog/preview';
-    // let url = 'http://localhost:3000/blog/preview';
-    let url = 'https://sheltered-sierra-42301.herokuapp.com/blog/preview';
+    let url = 'http://localhost:3000/blog/preview';
+    // let url = 'https://sheltered-sierra-42301.herokuapp.com/blog/preview';
     if (all) {
       url += '/all';
     }

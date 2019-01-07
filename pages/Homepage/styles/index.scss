@@ -148,13 +148,14 @@
   }
 
   .wrapper.-tolerance {
-    margin-bottom: 20px;
+    margin: 20px 0;
   }
 
   .wrapper.-tolerance > .img {
     height: 200px;
     background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
   }
 
   .magazine-wrap {
@@ -237,6 +238,10 @@
 @media screen and (min-width: 900px) {
   .online-shop {
     margin: 0 20px;
+  }
+
+  .wrapper.-tolerance {
+    margin-top: 0;
   }
 
   .magazine-wrap {
