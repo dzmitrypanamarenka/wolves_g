@@ -14,7 +14,7 @@
       font-size: 42px;
       font-style: normal;
       font-weight: 600;
-      color: rgba(0,0,0,.84);
+      color: rgba(0, 0, 0, .84);
       line-height: 1.04;
       letter-spacing: -.015em;
       text-transform: capitalize;
@@ -26,7 +26,7 @@
       font-size: 21px;
       font-style: normal;
       font-weight: 400;
-      color: rgba(0,0,0,.84);
+      color: rgba(0, 0, 0, .84);
       overflow-wrap: break-word;
       text-rendering: optimizelegibility;
       letter-spacing: -0.063px;
@@ -39,6 +39,7 @@
       align-self: flex-start;
       font-size: 18px;
       color: #ffa500;
+      margin-bottom: 10px;
 
       &:hover {
         color: #000000;
@@ -50,19 +51,31 @@
     }
 
     .img {
-      height: 25vh;
-      background-position: 56% 44%;
-      background-size: cover;
-      background-origin: border-box;
-      margin: 20px 0;
+      width: 100%;
+    }
 
+    .img-wrap {
       &.-post {
         display: block;
-        height: 25vh;
-        min-height: 200px;
-        width: auto;
         margin: 0 0 20px;
       }
+    }
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .img-wrap.-post {
+    display: block;
+    width: 65%;
+
+    &.-left {
+      float: left;
+      margin-right: 20px;
+    }
+
+    &.-right {
+      float: right;
+      margin-left: 20px;
     }
   }
 }
@@ -73,27 +86,16 @@
       margin: 0 5%;
     }
 
-    .img {
-      height: 60vh;
-      min-height: 500px;
+    .img-wrap:not(.-post) {
+      text-align: center;
+    }
 
-      &.-post {
-        display: inline-block;
-        height: 40vh;
-        min-height: 300px;
-        width: 50%;
-        margin: 0;
+    .img-wrap:not(.-post) > .img {
+      width: 70%;
+    }
 
-        &.-left {
-          float: left;
-          margin-right: 20px;
-        }
-
-        &.-right {
-          float: right;
-          margin-left: 20px;
-        }
-      }
+    .img-wrap.-post {
+      width: 50%;
     }
   }
 }

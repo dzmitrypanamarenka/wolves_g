@@ -46,7 +46,8 @@ export default class BlogPreview extends React.Component {
                 <h3 className='title'>{ e.title }</h3>
               </a>
             </Link>
-            <span className='text'> { e.tag }</span>
+            <span className='text -tag'> { e.tag }</span>
+            <span className='text'> { e.text }</span>
           </div>
         </div>) }
       </div>) }

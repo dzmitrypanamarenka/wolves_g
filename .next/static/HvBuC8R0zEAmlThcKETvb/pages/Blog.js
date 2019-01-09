@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{299:function(t,e,n){__NEXT_REGISTER_PAGE("/Blog",function(){return t.exports=n(300),{page:t.exports.default}})},300:function(t,e,n){"use strict";n.r(e);var o=n(39),u=n(27);e.default=Object(o.withRouter)(u.a)}},[[299,1,0,2]]]);
