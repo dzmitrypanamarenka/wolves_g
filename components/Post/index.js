@@ -20,38 +20,40 @@ export const Post1 = () => <section className={`post-wrap`}>
     </a>
   </Link>
   <h3 className='title'>
-    Root angespielt
+    Root
   </h3>
   <div style={{backgroundImage: `url('../../static/img/root1.jpg')`}} className='img'></div>
   <p className='text'>
-    Ersteindruck von ROOT:
+    Diese Woche spielte ich in Duisburg zu viert (Fabian S., Fabian W. und Chris von den Brettspiel-Geeks) ROOT von Leder Games, welches von André vom Spieltreff Duisburg sehr gut erklärt wurde!
   </p>
   <p className='text'>
-    Diese Woche spielte ich in Duisburg zu viert (Fabian Selbach, Fabian und Chris von den Brettspiel Geeks) ROOT von Leder Games, welches von André sehr gut erklärte wurde! 👍
+    Ein sehr taktisches und asymmetrisches Strategiespiel für Kenner- und Vielspieler.
+    Ein Kampf um Wald und Siegpunkte, was sehr hübsch aussah, aber auch genügend Tiefe durch interessante und unterschiedliche Mechaniken beinhaltet!
   </p>
   <p className='text'>
-    Ein sehr taktisches und Asymmetrisches Strategiespiel für Kenner- und Vielspieler.
-    Ein Kampf um Wald und Siegpunkte, was sehr hübsch aussah, aber auch genügend Tiefe, interessante und Unterschiedliche Mechaniken beinhaltet!
+    Root ist aber ein Spiel, was man definitiv mehrmals spielen sollte. Mindestens vier Mal, um so jede Rasse und deren unterschiedliche Fähigkeiten zu verstehen und somit im Spiel vorbereitet zu sein und richtig reagieren zu können!
   </p>
   <p className='text'>
     <span style={{backgroundImage: `url('../../static/img/root2.jpg')`}} className='img -post -left'></span>
-    Root ist aber ein Spiel, was man definitiv mehrmals spielen sollte. Mindestens vier Mal, um so jede Rasse und dessen unterschiedlichen Fähigkeiten zu verstehen und somit im Spiel vorbereitet und richtig reagieren zu können!
-    Die Regeln sind grundsätzlich einfach, aber die jeweiligen Spezialfähigkeiten, machen dass Spiel so komplex und dadurch ist der Einstieg recht Hoch!
+    Die Regeln sind grundsätzlich einfach, aber die jeweiligen Spezialfähigkeiten machen das Spiel so komplex und dadurch ist die Einstiegshürde recht hoch!
     Sobald man aber einmal drin ist, spielt sich ROOT sehr gut und flüssig.
   </p>
   <p className='text'>
-    Des Weiteren, muss man erwähnen, dass für ROOT schon gute englisch Kenntnisse von Nöten sind, da viele Fähigkeiten auf dem Spieler Tableau für Fragezeichen sorgen können.
-    Dadurch das es Asymmetrisch gespielt wird und somit jeder Spieler seinen kompletten Zug absolviert, kann es leider zu Downtime’s kommen!
+    Des Weiteren muss man erwähnen, dass für ROOT schon gute Englischkenntnisse von Nöten sind, da viele Fähigkeiten auf dem Spieler-Tableau für Fragezeichen sorgen können.
+    Dadurch, dass es asymmetrisch gespielt wird und somit jeder Spieler seinen kompletten Zug absolviert, kann es leider zu Downtimes kommen!
   </p>
   <p className='text'>
     <span style={{backgroundImage: `url('../../static/img/root3.jpg')`}} className='img -post -right'></span>
-    Interaktiv war es schon, obwohl man schon stark auf sich und seiner Strategie fokussiert ist. Liegt aber wahrscheinlich erst mal daran, dass man versucht das Spiel zu verstehen.
-    Ich z.B. wusste nicht wie meine Gegner gewinnen können und hab mich do
-    It nur auf mich konzentriert!
-    Ich würde es immer mitspielen und bin froh das ich es durch André, vom Spieltreff Duisburg, jederzeit spielen kann!
+    Interaktiv war es schon, obwohl man schon stark auf sich und seine Strategie fokussiert ist.
+    Liegt aber wahrscheinlich erst mal daran, dass man versucht, das Spiel zu verstehen.
+    Ich z.B. wusste nicht, wie meine Gegner gewinnen können, und hab mich somit nur auf mich konzentriert!
   </p>
   <p className='text'>
+    Ich würde es immer mitspielen und bin froh, dass ich es durch André vom Spieltreff Duisburg jederzeit spielen kann!
     I ❤️ The Forest Rebels!
+  </p>
+  <p className='text'>
+    Link zum Spieltreff Duisburg: <a href="https://spieletreff-duisburg.de/">spieletreff-duisburg.de</a>
   </p>
 </section>;
 
@@ -101,30 +103,31 @@ export const Post3 = () => <section className={`post-wrap`}>
   </h3>
   <div style={{backgroundImage: `url('../../static/img/roll1.jpg')`}} className='img'></div>
   <p className='text'>
-    Gestern das erste <b>Mal Gloomhaven</b> gespielt, hat richtig Bock gemacht! I ❤️it!
-    Ein Kumpel und ich, sind neu und mitten im Abenteuer eingestiegen, was gar kein Problem gemacht hat, sehr nice! 👍
+    Hallo Brettspielfreunde,
+    gestern das erste Mal Gloomhaven gespielt, hat richtig Bock gemacht! I ❤️ it!
+    Ein Kumpel und ich sind neu und mitten im Abenteuer eingestiegen, was gar kein Problem gemacht
+    hat, sehr nice!👍
   </p>
   <p className='text'>
     <span style={{backgroundImage: `url('../../static/img/roll2.jpg')`}} className='img -post -left'></span>
-    Mich hat es direkt in seinem Bann gezogen.
-    Vor allem die Art und Weise, wie man sein persönliches Kartendeck spielt. Denn man muss jedes Mal entscheiden, ob man die Aktion (auf den Karten - 2 Optionen) verwendet, die anschließend auf dem Ablagestapel gelegt wird oder ein mächtigere Aktion, die man dann aber ganz aus diesem Spiel verliert! Mega!
-    Dazu zieht man vor jedem Abenteuer 2 Karten, wo man sich eine aussucht, die eine Aufgabe bereithält. Wenn man diese erfolgreich absolviert bekommt man am Ende einen Bonus!
+    Mich hat es direkt in seinen Bann gezogen.
+    Vor allem die Art und Weise, wie man sein persönliches Kartendeck spielt. Denn man muss jedes Mal entscheiden, ob man die Aktion (die Karten bieten 2 Optionen) verwendet, die anschließend auf den Ablagestapel gelegt wird, oder eine mächtigere Aktion wählt, wo man dann aber die Karte ganz aus diesem Spiel verliert!
   </p>
   <p className='text'>
   
   </p>
   <p className='text'>
     <span style={{backgroundImage: `url('../../static/img/roll3.jpg')`}} className='img -post -right'></span>
-    Das führte zu lustigen Reaktionen meiner Mitspieler und Gesichtsausdrücke!
-    Denn ich spiele einen Supporter und alle dachten sich, was steht der in vorderster Front!?!
-    Dann hab ich auch noch die Karte ausgespielt, mit der niedrigsten Zahl, somit höchste Initiative und habe angegriffen!
-    Boom 💥 ! Wham ! Bam! Shazzam!
-    Einen Elite getötet und 2 schwer verwundet und bewegungsfähig gemacht!
-  
-    Die anschließenden Gesichter meiner Mitspieler, waren Gold wert! Hab mein Ziel erfüllt (Zielkarte) Was besagte, töte den ersten Gegner!
+    Dazu zieht man vor jedem Abenteuer 2 Karten, wovon man sich eine aussucht, die eine Aufgabe bereithält. Wenn man diese erfolgreich absolviert, bekommt man am Ende einen Bonus!
+    Das führte zu lustigen Reaktionen und Gesichtsausdrücken meiner Mitspieler!
+    Denn ich spiele einen Supporter und alle dachten sich, warum steht der in vorderster Front!?!
+    Dann habe ich auch noch die Karte ausgespielt mit der niedrigsten Zahl, somit höchste Initiative, und habe angegriffen!
+    Boom! Wham! Bam! Shazzam!
+    Einen Elite-Gegner getötet und 2 schwer verwundet und bewegungsunfähig gemacht!
   </p>
   <p className='text'>
-    Also, freu mich aufs nächste Spiel und kann jeden empfehlen, mal eine Partie zu testen und zu spielen, es lohnt sich!
+    Die anschließenden Gesichter meiner Mitspieler waren Gold wert! Hab mein Ziel erfüllt (Zielkarte), das besagte „Töte den ersten Gegner“!
+    Also, freu mich aufs nächste Spiel und kann jedem empfehlen, mal eine Partie zu testen und zu spielen, es lohnt sich!
     Für mich wird es dem Hype und der Platzierung bei BBG gerecht!
   </p>
 </section>;
@@ -262,5 +265,46 @@ export const Post5 = () => <section className={`post-wrap`}>
     <b>Verlag:</b> iDventure / Asmodee<br/>
     Für mich hat <b>Detective Stories</b> den Escape-Markt neu belebt und auf eine ganz neue Ebene gehoben. Hier erlebt und bekommt man wirklich das Gefühl, an einem realen Kriminalfall mitzuarbeiten und diesen zu lösen. Was das realistische Spielmaterial, welches mit viel Liebe zum Detail gestaltet wurde, noch zusätzlich unterstreicht. Das Beste daran ist, dass man hier nichts zerstören oder beschriften muss. Somit kann es problemlos weiterverkauft oder verschenkt werden. Man könnte das Spiel auch solo spielen, was sicherlich einige von euch bestimmt interessiert. Jedoch finde ich, dass dadurch einiges an Charme, Unterhaltungswert und Spielreiz verloren geht. Weil man somit auf die vielen Diskussionen und Spekulationen, die während des Lösen des Falls aufkommen verzichten muss. Wir fanden diese mindestens genauso unterhaltsam und spannend, wie das Spiel, an sich, zu lösen.
     Wir waren auf jeden Fall alle mega begeistert von <b>Detective Stories</b> und es ist für mich bis jetzt die Überraschung des Jahres 2018. Wir freuen uns jetzt schon auf den zweiten Fall.
+  </p>
+</section>;
+
+export const Post6 = () => <section className={`post-wrap`}>
+  <Link href={`/blog`}>
+    <a className='link'>
+      <Icon type='left' className='icon'/>
+      <span className='title'>alle Artikel</span>
+    </a>
+  </Link>
+  <h3 className='title'>
+    <span>TERRAFORMING MARS - ERWEITERUNGEN</span>
+  </h3>
+  <div style={{backgroundImage: `url('../../static/img/mars1.jpg')`}} className='img'></div>
+  <p className='text'>
+    Hallo liebe Brettspielfreunde,
+    Wir haben das erste Mal Terraforming Mars mit fast allen Erweiterungen (Venus, Kolonien und Präludium) zu fünft gespielt! Eigentlich wollten wir auf einem der Spielbretter Hellas oder Elysium zocken, haben wir vor lauter Optionen und Möglichkeiten aber glatt vergessen! ;)
+  </p>
+  <p className='text'>
+    Was für ein Spielgenuss und der Mehrwert der jeweiligen Erweiterung war großartig und einfach nur Klasse!
+    Man hat jetzt so viele Karten, dass jeder Spieler seinen eigenen Stapel besitzen könnte. Aber man kann einfach nie genug haben, oder?
+  </p>
+  <p className='text'>
+    Jede Erweiterung fügt sich nahtlos ins Grundspiel ein und schenkt dem Spiel interessante und neue Möglichkeiten, Punkte zu generieren.
+  </p>
+  <p className='text'>
+    Zu fünft und mit allen Erweiterungen geht zwar die Übersicht flöten, was schon vorher ein nicht so einfaches Unterfangen war, ist mit allen Erweiterungen aber jetzt richtig krass. Dafür bietet es den Spielern, einfacher und schneller die eigene Taktik und Strategie im Spiel zu verändern und anzupassen.
+  </p>
+  <p className='text'>
+    <span style={{backgroundImage: `url('../../static/img/mars2.jpg')`}} className='img -post -left'></span>
+    Ich selber habe diesmal nur den klassischen Weg beschritten, da ich mir dachte, alle anderen wollen jetzt die neuen Erweiterungen testen! Und genau so war es auch!
+  </p>
+  <p className='text'>
+    Bin am Ende knapp Zweiter geworden und muss sagen, dass wir alle insgesamt nah beieinander waren. Denn es gibt jetzt sehr viele Optionen, Punkte zu generieren, und das ist das beste Kompliment für ein Spiel, wenn genau dieser Fall eintritt!
+  </p>
+  <p className='text'>
+    <span style={{backgroundImage: `url('../../static/img/mars3.jpg')`}} className='img -post -right'></span>
+    Die Erweiterungen haben das Spiel nicht unnütz in die Länge gezogen oder künstlich aufgebauscht, sondern noch mehr Möglichkeiten geschaffen, Punkte zu generieren, so dass es auch super zu 5 klappt und keiner benachteiligt wird. Sie bieten den Spielern somit einen wirklichen Mehrwert!
+  </p>
+  <p className='text'>
+    Ich kann jedem Terraforming Mars mit allen Erweiterungen nur empfehlen, da es nicht nur Mega Spaß gemacht hat und neue taktische Tiefe schenkt, sondern sich auch zeitlich angenehm gespielt hat!
   </p>
 </section>;
