@@ -21,6 +21,21 @@ export default ({ children }) => <div>
     <link rel="icon" type="image/png" href="/static/img/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="/static/img/favicon-16x16.png" sizes="16x16" />
     <link rel='shortcut icon' href='/static/img/favicon.ico'/>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+      window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#000"
+          },
+          "button": {
+            "background": "#f1d600"
+          }
+        }
+      })});
+    </script>
   </Head>
   <Layout>
     <Header/>
