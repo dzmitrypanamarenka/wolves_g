@@ -1,4 +1,4 @@
-import '@babel/polyfill';
+  import '@babel/polyfill';
 import express from 'express';
 import session from 'express-session';
 import bodyParser from 'body-parser';
@@ -43,6 +43,12 @@ nextApp.prepare()
     app.get('*', (req, res) => {
       return handle(req, res)
     });
+    app.get('*', function(req, res) {
+      res.redirect('https://' + req.headers.host + req.url);
+  
+      // Or, if you don't want to automatically detect the domain name from the request header, you can hard code it:
+      // res.redirect('https://example.com' + req.url);
+    });
 
 // app.use(passport.initialize());
 // app.use(passport.session());
@@ -52,7 +58,6 @@ nextApp.prepare()
 // passport.deserializeUser(User.deserializeUser());
 
     // app.use('/', routes);
-    console.log(process.env.NODE_ENV)
     mongoose.connect(mongoDbURI, dbOptions);
     mongoose.connection
       .once('open', () => {
