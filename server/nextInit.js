@@ -1,5 +1,5 @@
 import next from 'next';
 
-const dev = true;
+const dev = false;
 
 export default next({ dev });
