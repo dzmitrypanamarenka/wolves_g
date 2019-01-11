@@ -7,10 +7,10 @@ export default () => (<Layout>
         <h3 className='title -sub'>Angaben gemäß § 5 TMG:</h3>
         <p>Tobias Franken
             Münsterstr. 29
-            40477 Düsseldorf
-            Kontakt:
-            Telefon: 0163-5600712
-            E-Mail: info@gamingwolves.net
+            40477 Düsseldorf<br/>
+            Kontakt:<br/>
+            Telefon: 0163-5600712<br/>
+            E-Mail: info@gamingwolves.net<br/>
         </p>
         <h3 className='title -sub'>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
         </h3>
@@ -20,14 +20,16 @@ export default () => (<Layout>
         </p>
         <h3 className='title -sub'>Dieses Impressum gilt auch für:
         </h3>
-        <p>den Facebook-Account …
-        den Twitter-Account …
-        den Youtube-Account …    
+        <p>
+          Facebook-Account: GamingWolves - <a href="https://www.facebook.com/GamingWolves/">https://www.facebook.com/GamingWolves/</a><br/>
+          Instagram-Account: Gamingwolvesnet - <a href="https://www.instagram.com/gamingwolvesnet/?hl=en">https://www.instagram.com/gamingwolvesnet/?hl=en</a><br/>
+          Youtube-Account: Gaming Wolves - <a href="https://www.youtube.com/channel/UCaVBl-zDv_5iv2CVLzt_4iQ">https://www.youtube.com/channel/UCaVBl-zDv_5iv2CVLzt_4iQ</a><br/>
+          Twitter-Account: GamingWolvesNet - <a href="https://twitter.com/GamingWolvesNet?lang=en">https://twitter.com/GamingWolvesNet?lang=en</a><br/>
         </p>
         <h3 className='title -sub'>Haftung für Inhalte (Disclaimer)
         </h3>
         <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden
-        Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.   
+        Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
         </p>
         <h3 className='title -sub'>Haftung für Links
         </h3>
@@ -35,8 +37,8 @@ export default () => (<Layout>
         </p>
         <h3 className='title -sub'>Urheberrecht
         </h3>
-        <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen. 
-        Quelle:e-recht24.de       
+        <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+        Quelle:e-recht24.de
         </p>
     </div>
 </Layout>
