@@ -6,6 +6,7 @@ import Social from './Social';
 import Twitter from './Twitter';
 import Blog from './Blog';
 import Instagram from './Instagram';
+import Cookie from './Cookie';
 
 export {
   Header,
@@ -15,5 +16,6 @@ export {
   Social,
   Twitter,
   Blog,
-  Instagram
+  Instagram,
+  Cookie
 };
