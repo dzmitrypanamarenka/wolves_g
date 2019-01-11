@@ -8,7 +8,7 @@ export const fetchPostsFailure = createAction('POSTS_FETCH_FAILURE');
 export const fetchPosts = (id = null) => async (dispatch) => {
     dispatch(fetchPostsRequest());
     try {
-      const url = 'https:/gamingwolves.net/blog/posts';
+      const url = 'https://gamingwolves.net/blog/posts';
       // const url = 'http://localhost:3000/blog/posts';
       // const url = 'https://sheltered-sierra-42301.herokuapp.com/blog/posts';
       let data;

@@ -8,7 +8,7 @@ export const fetchPreviewFailure = createAction('PREVIEW_FETCH_FAILURE');
 export const fetchPreviewPosts = () => async (dispatch) => {
   dispatch(fetchPreviewRequest());
   try {
-    let url = 'https:/gamingwolves.net/blog/preview';
+    let url = 'https://gamingwolves.net/blog/preview';
     // let url = 'http://localhost:3000/blog/preview';
     // let url = 'https://sheltered-sierra-42301.herokuapp.com/blog/preview';
     // if (all) {
