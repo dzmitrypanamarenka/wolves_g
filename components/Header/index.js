@@ -10,7 +10,7 @@ class HeaderNav extends React.Component {
   render() {
     const { route } = this.props.router;
     const defaultCN = 'title';
-    const defaultMobileCN = 'menu-item';
+    const defaultMobileCN = 'menu-item bm-item';
     return <Header className='main-header'>
       <div className= 'container'  >
         <div className = "wrapper">
@@ -60,28 +60,40 @@ class HeaderNav extends React.Component {
             </li>
           </ul>
           <Menu right className='mobile-menu' >
-            <a
-              id="home"
-              className={`${defaultMobileCN} ${route === '/Homepage' ? '-active' : ''}`}
-              href="/"
-            >STARTSEITE</a>
+            <Link
+              href={`/`}
+            >
+              <a
+                className={`${defaultMobileCN} ${route === '/Homepage' ? '-active' : ''}`}
+                id="home"
+              >STARTSEITE</a>
+            </Link>
             <a id="magazine" className="menu-item" href="https://magazine.gamingwolves.net/de_DE/9518/140701">ONLINE-MAGAZIN</a>
-            <a
-              id="home"
-              className={`${defaultMobileCN} ${route === '/Blog' ? '-active' : ''}`}
-              href="/"
-            >BLOG</a>
-            <a
-              id="home"
-              className={`${defaultMobileCN} ${route === '/UberUns' ? '-active' : ''}`}
-              href="/"
-            >ÜBER UNS</a>
+            <Link
+              href={`/blog`}
+            >
+              <a
+                id="blog"
+                className={`${defaultMobileCN} ${route === '/Blog' ? '-active' : ''}`}
+              >BLOG</a>
+            </Link>
+            <Link
+              href={`/about`}
+            >
+              <a
+                className={`${defaultMobileCN} ${route === '/UberUns' ? '-active' : ''}`}
+                id="about"
+              >ÜBER UNS</a>
+            </Link>
             <a id="shop" className="menu-item" href="https://shop.spreadshirt.de/gaming-wolves/">SHOP</a>
-            <a
-              id="home"
-              className={`${defaultMobileCN} ${route === '/Donate' ? '-active' : ''}`}
-              href="/"
-            >UNTERSTÜTZEN</a>
+            <Link
+              href={`/donate`}
+            >
+              <a
+                id="donate"
+                className={`${defaultMobileCN} ${route === '/Donate' ? '-active' : ''}`}
+              >UNTERSTÜTZEN</a>
+            </Link>
           </Menu>
         </div>
       </div>

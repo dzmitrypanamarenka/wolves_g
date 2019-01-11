@@ -11,6 +11,6 @@ export default () => <CookieConsent
   buttonStyle={{padding: '10px 15px', background: '#ffa500', color: '#000'}}
   contentStyle={{flex: '1'}}
 >
-  <span className='cookie-text'>This website uses cookies to ensure you get the best experience on our website.</span>
-  <a href="https://cookiesandyou.com" className='cookie-link'>Learn more</a>
+  <span className='cookie-text'>Diese Website verwendet Cookies, um sicherzustellen, dass Sie das beste Erlebnis auf unserer Website erhalten.</span>
+  <a href="https://cookiesandyou.com" className='cookie-link'>Mehr erfahren</a>
 </CookieConsent>
