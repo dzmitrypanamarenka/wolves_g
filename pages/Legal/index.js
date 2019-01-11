@@ -12,7 +12,7 @@ export default () => (<Layout>
     40477, Düsseldorf, Deutschland<br/>
     E-Mailadresse: info@gamingwolves.net<br/>
     Geschäftsführer/ Inhaber: Tobias Franken<br/>
-    Link zum Impressum: https://gamingwolves.net</span></p><h3 className='title -sub' id="dsg-general-datatype">Arten der verarbeiteten Daten</h3><p>-	Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).<br/>
+    Link zum Impressum: https://gamingwolves.net/impressum</span></p><h3 className='title -sub' id="dsg-general-datatype">Arten der verarbeiteten Daten</h3><p>-	Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).<br/>
     -	Kontaktdaten (z.B., E-Mail, Telefonnummern).<br/>
     -	Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).<br/>
     -	Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).<br/>
