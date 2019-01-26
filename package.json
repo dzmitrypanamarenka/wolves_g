@@ -50,6 +50,7 @@
     "react-cookie-consent": "^2.0.1",
     "react-dom": "^16.5.2",
     "react-facebook": "^6.0.15",
+    "react-ga": "^2.5.6",
     "react-instafeed": "^0.4.0",
     "react-instagram-embed": "^1.4.0",
     "react-redux": "^5.0.7",

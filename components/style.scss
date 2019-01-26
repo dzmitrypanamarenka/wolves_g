@@ -38,6 +38,10 @@
     text-decoration: none;
   }
 
+  .static-container.-legal a {
+    word-break: break-word;
+  }
+
   .ant-layout-content {
     display: flex;
     justify-content: center;

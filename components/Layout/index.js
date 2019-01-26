@@ -1,6 +1,7 @@
 import React from 'react';
 import { Layout } from 'antd';
 import Head from 'next/head';
+import ReactGA from 'react-ga';
 
 import '../normalize.scss';
 import 'antd/dist/antd.css';
@@ -12,6 +13,10 @@ import '../Footer/styles/style.scss';
 import { Header, Footer, Cookie } from '../';
 
 const { Content } = Layout;
+if (typeof window !== 'undefined') {
+  ReactGA.initialize('UA-132824088-1');
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}
 
 export default ({ children }) => <div>
   <Head>

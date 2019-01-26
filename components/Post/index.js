@@ -340,3 +340,79 @@ export const Post6 = () => <section className={`post-wrap`}>
     Ich kann jedem Terraforming Mars mit allen Erweiterungen nur empfehlen, da es nicht nur Mega Spaß gemacht hat und neue taktische Tiefe schenkt, sondern sich auch zeitlich angenehm gespielt hat!
   </p>
 </section>;
+
+export const Post7 = () => <section className={`post-wrap`}>
+  <Link href={`/blog`}>
+    <a className='link'>
+      <Icon type='left' className='icon'/>
+      <span className='title'>alle Artikel</span>
+    </a>
+  </Link>
+  <h3 className='title'>
+    <span>Detective Stories, Fall 2: Antarktis Fatale</span>
+  </h3>
+  <figure className='img-wrap'>
+    <img src="../../static/img/arctic1.jpg" alt="" className='img'/>
+  </figure>
+  <p className='text'>
+    <h4>Um was geht es in diesem Fall?</h4>
+    Der Fall ist in der Theorie schon von der Polizei gelöst worden und der Täter hat die Todesstrafe erhalten.
+    Durch einen Zufall haben wir „Möchtegern Detektive“ noch einmal die Möglichkeit bekommen, diesen Fall zu checken und zu überprüfen, ob auch wirklich der richtige Täter die Todesstrafe erhalten hat.
+    Der zweite Fall spielt dieses Mal nicht in Adlerstein, sondern in der verschneiten und extrem kalten Antarktis. Also zieht euch warm an, es wird nicht nur kalt, sondern auch richtig knifflig!
+  </p>
+  <p className='text'>
+    <figure className='img-wrap -post -left'>
+      <img src="../../static/img/arctic2.jpg" alt="" className='img'/>
+    </figure>
+    <h4>Für wen ist das Spiel geeignet?</h4>
+    Zum einen für Fans von Escape-Rooms oder für Rätsel/Escape-Spieler (Exit-Reihe, Unlock!-Reihe, Escape Room - The Game, Deckscape usw.) und zum anderen für diejenigen von euch, die schon immer einmal in die Rolle eines Ermittlers, Profilers oder Detektivs schlüpfen wollten, um einen richtigen Kriminalfall zu lösen. Wer den ersten Teil mochte, wird auch hier seine helle Freude haben und den zweiten Fall lieben!
+  </p>
+  <p className='text'>
+    <figure className='img-wrap -post -right'>
+      <img src="../../static/img/arctic3.jpg" alt="" className='img'/>
+    </figure>
+    <h4>Kann das hohe Niveau gehalten werden?</h4>
+    Auch der zweite Teil von Detective Stories vermittelt wieder viele spannende und realistische Hinweise, Beweise und Dokumente. Auch das Internet und die Sozialen Medien werden in den Spielrhythmus miteinbezogen um zu ermitteln welche Charaktere ein Tatmotiv haben, wer für die Tatzeit ein Alibi besitzt und welche Fragen halt noch hierdurch beantwortet werden können. Ich dachte mir, das Niveau zu halten oder zu gar zu toppen wird sehr schwer, aber unsere Spielgruppe (identisch wie beim ersten Fall) war wieder begeistert und konnte uns überraschen.
+    Der Fall „Antarktis Fatale“ ist auch wieder richtig knifflig und fordert die Spielgruppe ungemein. Jedes Dokument, welches dem Spiel beiliegt, muss genaustens begutachtet und möglichst jede noch so kleine Information notiert werden. Nur so können die richtigen und logischen Zusammenhänge gezogen werden um den Fall am Ende lösen zu können.
+    Wieder ist das Beweismaterial realistisch und liebevoll gestaltet und steht dem ersten Teil „Das Feuer in Adlerstein“ in Nichts nach.
+  </p>
+  <p className='text'>
+    <h4>Dauer und Schwierigkeitsgrad:</h4>
+    Wir haben auch in diesem Fall ca. zwei bis drei Stunden gerätselt und gespielt. Man sollte daher sicherlich bis zu drei Stunden einplanen, abhängig von der Spieleranzahl und dem Spielerniveau der Gruppe. Das Spiel selbst setzt die Gruppe allerdings niemals unter Zeitdruck. Somit kann jeder Einzelne entspannt in die real anmutende Kriminalgeschichte von Detective Stories eintauchen und diese erleben, bis der Fall gelöst ist.
+    Der Schwierigkeitsgrad von Detective Stories „Antarktis Fatale“ bewegt sich im Vergleich zum ersten Fall ungefähr auf der gleichen Stufe, wenngleich auch „Antarktis Fatale“ einen Hauch schwieriger anmutet.
+  </p>
+  <p className='text'>
+    <figure className='img-wrap -post -left'>
+      <img src="../../static/img/arctic5.jpg" alt="" className='img'/>
+    </figure>
+    <h4>Braucht man eine App bzw. das Internet?</h4>
+    Auch hier geht Detective Stories 2 die gleichen Wege wie der Vorgänger und fühlt sich genauso realistisch an wie zuvor. Das Internet wird wieder für allerlei Überprüfungen gebraucht. Zusätzlich liegt der Fokus dieses Mal nicht auf Facebook, dafür wird auf Instagram-Profile zurückgegriffen und auf ein weiteres Highlight, welches wir an dieser Stelle aber nicht spoilern wollen.
+    Eine App braucht man also nicht, aber ein Internetzugang ist für Detective Stories zwingend erforderlich. Im Gegensatz zum ersten Teil, kann man den Fall selbst dann komplett genießen, wenn man keinen eigenen Account in den sozialen Medien besitzt. Ein Instagram-Account erleichtert die Suche, ist aber nicht unabdingbar.
+  </p>
+  <p className='text'>
+    <figure className='img-wrap -post -right'>
+      <img src="../../static/img/arctic4.jpg" alt="" className='img'/>
+    </figure>
+    <h4>Fazit:</h4>
+    Für mich ist der zweite Fall von Detective Stories: „Antarktis Fatale“ wieder richtig großes Kino und hat uns ein einzigartiges kriminalistisches Spielerlebnis mit Überraschungsmoment und Wow-Effekt geschenkt, dass ich nicht für möglich gehalten hätte. Wer schon „Das Feuer in Adlerstein“ richtig gut fand, wird sich freuen, denn auch der zweite Teil ist wieder grandios geworden und lässt jedes Detektiv-Herz höherschlagen. Denn was hier aufgefahren wird, ist großartig und wirkt sehr realistisch und authentisch!
+    Das Spiel kann man problemlos weitergeben, verkaufen oder verschenken, da man das beigelegte Spielmaterial weder zerreißen noch zerstören muss.
+    Einziger Kritikpunkt an diesem Fall ist, das man Beweise beim Beschuldigten gefunden hat, auf die man bei der Lösung nicht weiter eingegangen wird. Dies hat uns vor einige Logik-Probleme beim Lösen des Falls gestellt. Aber sollte man von allen Personen die möglichen Tatmotive bzw. Alibis zusammengetragen haben, wird sich der Fall am Ende trotzdem lösen lassen.
+    Wir waren auf jeden Fall alle wieder extrem begeistert vom 2. Fall von Detective Stories und freuen uns schon auf den nächsten Fall, der uns „Möchtegern Detektive“ zu Rate zieht, um sich von uns lösen zu lassen!<br/>
+    <b>Tobias Franken</b>
+  </p>
+  <p className='text'>
+    <b>PRO:</b><br/>
+     - Kann das Niveau des ersten Teils halten und steht diesem in Nichts nach<br/>
+     - Eine Überraschung mit Wow-Effekt<br/>
+     - Innovatives Spielgefühl<br/>
+     - Thematisch sehr gut umgesetzt<br/>
+     - Kein Zeitdruck<br/>
+     - Einbindung von Internet und sozialen Medien<br/>
+     - Sehr interaktives Spiel<br/>
+     - Diesmal kein Account für die Sozialen Medien von Nöten<br/>
+    <b>KONTRA:</b><br/>
+     - Um das Spiel im Ganzen zu erleben, braucht man einen Internet-Anschluss<br/>
+     - Beim Täter werden Beweise festgestellt, auf die am Ende nicht mehr eingegangen wird.<br/>
+     - Hier wurde Potential verschenkt<br/>
+  </p>
+</section>;

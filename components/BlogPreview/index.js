@@ -23,8 +23,11 @@ export default class BlogPreview extends React.Component {
     this.props.fetchPreviewPosts();
   }
   
-  render(){
-    const previews = this.props.previews ? setImages(this.props.previews) : {};
+  render() {
+    const sortedPreviews = this.props.previews ?
+      this.props.previews.sort((el1, el2) => el1.order - el2.order) :
+      [];
+    const previews = sortedPreviews.length ? setImages(this.props.previews) : [];
     const chunkedPreviews = _.chunk(previews, 2);
     
     const styles = {

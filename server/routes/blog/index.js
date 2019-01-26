@@ -42,12 +42,16 @@ router.route('/new').post((req, res) => {
 router.route('/preview').get((req, res) => {
   Post
     .find({})
-    .limit(4)
+    .limit(999)
     .exec((err, posts) => {
-      const result = posts.reduce((acc, el, i) => i === posts.length -1
-        ? [el, ...acc]
-        : [...acc, el],
-        []);
+      const ids = [
+        "5bc5c04f91a7c73df8bfcd4e",
+        "5bc5cf7be0bcd84b492597c0",
+        "5bc11a25ba69710417eb8f01",
+        "5c4c9f45fb6fc05326acd0c2"
+      ];
+      const result = posts
+        .filter(el => ids.find(e => String(el._id) === e));
       res.json(result);
     })
 });
@@ -57,11 +61,7 @@ router.route('/preview/all').get((req, res) => {
     .find({})
     .limit(999)
     .exec((err, posts) => {
-      const result = posts.reduce((acc, el, i) => i === posts.length -2
-        ? [el, ...acc]
-        : [...acc, el],
-        []);
-      res.json(result);
+      res.json(posts);
     })
 });
 
