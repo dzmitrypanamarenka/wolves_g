@@ -69,7 +69,10 @@ export default () => <Layout>
               <a href='https://www.spiele-offensive.de' className='img' style={{backgroundImage: "url('/static/img/sponsors2.jpg')"}}/>
               <a href='https://www.blackfire.eu/' className='img' style={{backgroundImage: "url('/static/img/sponsors1.png')"}}/>
               <a href='http://www.magestore.de/' className='img' style={{backgroundImage: "url('/static/img/sponsors3.jpg')"}}/>
-              <a href='https://www.ali-baba-spieleclub.de/' className='img' style={{backgroundImage: "url('/static/img/sponsors4.jpg')"}}/>
+              <a href='https://www.ali-baba-spieleclub.de/' className='img' style={{
+                backgroundImage: "url('/static/img/sponsors4.jpg')",
+                backgroundSize: '115px 75px'
+              }}/>
             </div>
           </div>
         </div>
