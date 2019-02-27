@@ -7,7 +7,7 @@ module.exports = {
     deploy: {
       production: {
         user: 'ubuntu',
-        host: 'ec2-18-223-109-21.us-east-2.compute.amazonaws.com',
+        host: 'ec2-13-59-186-16.us-east-2.compute.amazonaws.com',
         key: '~/.ssh/wolvesgg.pem',
         ref: 'origin/master',
         repo: 'git@github.com:dzmitrypanamarenka/wolves_g.git',
