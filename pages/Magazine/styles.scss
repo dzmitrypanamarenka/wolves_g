@@ -149,6 +149,12 @@
 
 @media screen and (min-width: 900px) {
     .static-container.-magazine {
+        > .wrap.-content > .magazine-wrap > .wrap {
+            align-self: baseline;
+            width: 100%;
+            margin: 0;
+        }
+
         > .wrap.-content > .magazine-wrap > .wrap > .link > .title-wrapper {
             max-width: 300px;
         }
