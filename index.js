@@ -6,8 +6,11 @@ import morgan from 'morgan';
 import mongoose from 'mongoose';
 import fs from 'fs';
 import https from 'https';
+import dotenv from 'dotenv';
 
 import nextApp from './server/nextInit';
+
+dotenv.config();
 
 const handle = nextApp.getRequestHandler();
 // import passport from 'passport';
@@ -16,16 +19,13 @@ const handle = nextApp.getRequestHandler();
 import config from './config/be_config';
 import routes from './server/routes';
 
-const options = {
-  key: fs.readFileSync('/etc/nginx/ssl/gamingwolves.key'),
-  cert: fs.readFileSync('/etc/nginx/ssl/gamingwolves.crt')
-};
+
 // const { Strategy } = passportLocal;
-process.env.NODE_ENV = 'production';
 const {
   port,
   dbURL,
-  dbOptions
+  dbOptions,
+  ssl
 } = config;
 const mongoDbURI = dbURL;
 
@@ -64,14 +64,15 @@ nextApp.prepare()
 // passport.deserializeUser(User.deserializeUser());
 //     const httpServer = http.createServer(app);
 // Create an HTTPS service identical to the HTTP service.
-    const httpsServer = https.createServer(options, app);
     // app.use('/', routes);
     mongoose.connect(mongoDbURI, dbOptions);
     mongoose.connection
       .once('open', () => {
         console.log(`Mongoose - successful connection ...`);
-        httpsServer.listen(process.env.PORT || port);
-        // httpsServer.listen(3001);
+        const server = process.env.NODE_ENV === 'production' 
+          ? https.createServer(ssl, app)
+          : app;
+        server.listen(process.env.PORT || port);
       })
       .on('error', error => console.warn(error));
 });

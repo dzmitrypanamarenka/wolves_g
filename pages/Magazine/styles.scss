@@ -1,0 +1,156 @@
+@media screen and (min-width: 320px) {
+    .static-container.-magazine {
+        & {
+            padding: 50px 0 0;
+        }
+    
+        .img {
+            width: 100%;
+        }
+    
+        > .wrap.-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 20px 30px;
+        }
+    
+        > .wrap.-content > .magazine-wrap {
+            flex-direction: column;
+            width: 85%;
+            border: none;
+
+            &:first-child {
+             margin-bottom: 20px;   
+            }
+        }
+
+        > .wrap.-content > .magazine-wrap > .wrap > .link > .title-wrapper {
+            max-width: 100%;
+        }
+    
+        > .wrap.-content > .title {
+            margin-top: 20px;
+        }
+    
+        > .img-wrap {
+            margin: 0 20px 30px;
+        }
+    
+        > .img-wrap > .img {
+            width: 100%;
+        }
+    
+        > .wrap.-benefits {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #000;
+            padding: 15px 0 25px;
+        }
+    
+        > .wrap.-benefits > .benefit-box {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 50%;
+
+            &.-middle {
+                margin: 15px 0;
+            }
+        }
+
+        > .wrap.-benefits > .benefit-box > .text-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        > .wrap.-benefits > .benefit-box > .text-wrap > .text {
+            text-align: center;
+            color: #ffffff;
+            font-size: 14px;
+        }
+        
+        > .wrap.-benefits > .benefit-box > .text-wrap > .title {
+            color: #ff9c00;
+            font-size: 16px;
+        }
+    
+        > .wrap.-benefits > .benefit-box > .icon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #ffffff;
+        }
+    
+        > .wrap.-content > .magazine-wrap > .wrap > .link {
+            display: flex;
+            justify-content: center;
+        }
+    
+        > .wrap.-content > .magazine-wrap > .wrap > .link > .title-wrapper > .text {
+            font-weight: 600;
+            font-size: 1.17em;
+            color: #000;
+        }
+    
+        > .wrap.-content > .magazine-wrap > .wrap > .link > .title-wrapper > .title {
+            font-weight: 600;
+            color: #ffffff;
+        }
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .static-container.-magazine {
+        > .wrap.-benefits {
+            align-items: baseline;
+            justify-content: space-around;
+            flex-direction: row;
+        }
+        > .wrap.-benefits > .benefit-box {
+            position: static;
+            display: flex;
+            justify-content: baseline;
+            width: auto;
+
+            &.-middle {
+                margin: 0;
+            }
+        }
+
+        > .wrap.-benefits > .benefit-box > .icon {
+            position: static;
+            display: flex;
+            height: 100%;
+            margin-right: 10px;
+        }
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .static-container.-magazine {
+        > .wrap.-content {    
+            flex-direction: row;        
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        > .wrap.-content > .magazine-wrap {
+            width: 45%;
+
+            &:first-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .static-container.-magazine {
+        > .wrap.-content > .magazine-wrap > .wrap > .link > .title-wrapper {
+            max-width: 300px;
+        }
+    }
+}

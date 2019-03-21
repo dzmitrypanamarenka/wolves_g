@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "test-prod": "npm run build && npm run start",
+    "clear": "rm -rf node_modules/ .next/ package-lock.json",
+    "test-prod": "npm run clear && npm run build && npm run start",
     "build": "next build",
     "start-this": "nodemon -r @babel/register ./index.js",
-    "start": "NODE_ENV=production node -r @babel/register ./index.js",
+    "start": "node -r @babel/register ./index.js",
     "deploy": "pm2 deploy ecosystem.config.js production",
     "restart": "pm2 startOrRestart ecosystem.config.js"
   },
@@ -28,6 +29,7 @@
     "babel-preset-next": "^1.2.0",
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
+    "dotenv": "^7.0.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "express": "^4.16.3",
     "express-session": "^1.15.6",

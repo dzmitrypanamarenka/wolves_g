@@ -30,7 +30,11 @@ class HeaderNav extends React.Component {
               </Link>
             </li>
             <li className="item">
-              <a href='https://magazine.gamingwolves.net/de_DE/9518/140701' className='title'>ONLINE-MAGAZIN</a>
+              <Link href={`/magazine`}>
+                <a
+                  className={`${defaultCN} ${route === '/Magazine' ? '-active' : ''}`}
+                >ONLINE-MAGAZIN</a>
+              </Link>
             </li>
             <li className="item">
               <Link href={`/blog`}>
@@ -68,7 +72,14 @@ class HeaderNav extends React.Component {
                 id="home"
               >STARTSEITE</a>
             </Link>
-            <a id="magazine" className="menu-item" href="https://magazine.gamingwolves.net/de_DE/9518/140701">ONLINE-MAGAZIN</a>
+            <Link
+              href={`/magazine`}
+            >
+              <a
+                className={`${defaultMobileCN} ${route === '/Magazine' ? '-active' : ''}`}
+                id="magazine"
+              >ONLINE-MAGAZIN</a>
+            </Link>            
             <Link
               href={`/blog`}
             >

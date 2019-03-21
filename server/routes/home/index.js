@@ -28,4 +28,8 @@ router.route('/donate').get((req, res) => {
   return nextApp.render(req, res, '/Donate', req.query)
 });
 
+router.route('/magazine').get((req, res) => {
+  return nextApp.render(req, res, '/Magazine', req.query)
+});
+
 export default router;
