@@ -30,11 +30,13 @@
         }
     
         > .wrap.-content > .title {
+						width: 100%;
+						text-align: center;
             margin-top: 20px;
         }
     
         > .img-wrap {
-            margin: 0 20px 30px;
+            margin: 0;
         }
     
         > .img-wrap > .img {
@@ -45,7 +47,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: #000;
+            background-color: #222320;
             padding: 15px 0 25px;
         }
     

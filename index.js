@@ -6,11 +6,8 @@ import morgan from 'morgan';
 import mongoose from 'mongoose';
 import fs from 'fs';
 import https from 'https';
-import dotenv from 'dotenv';
-
 import nextApp from './server/nextInit';
 
-dotenv.config();
 
 const handle = nextApp.getRequestHandler();
 // import passport from 'passport';
