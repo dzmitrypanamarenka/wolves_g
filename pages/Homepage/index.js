@@ -26,15 +26,15 @@ export default () => <Layout>
             <h2 className='block-title'>ONLINE-MAGAZIN</h2>
             <div className='magazine-wrap'>
               <span className='title'>NEU!</span>
-              <img src="/static/img/magazine.png" alt="magazine" className='img'/>
+              <img src="/static/img/magazine1.png" alt="magazine" className='img'/>
               <div className='wrap'>
                 <p className='text'>
                   DAS<span className='color -new'>NEUE</span><span className='color -magazine'>ONLINE MAGAZIN</span>ÜBER BRETTSPIELE, KARTENSPIELE & DIGITALE SPIELE!
                 </p>
-                <a href='https://magazine.gamingwolves.net/de_DE/9518/140701' className='link'>
+                <a href='https://magazine.gamingwolves.net/de_DE/11453/178528' target='_blank' className='link'>
                   <div className='title-wrapper'>
                     <h3 className='title'>jetzt lesen</h3>
-                    <span className='text'>Ausgabe 1 | DEZ 18 - FEB 19</span>
+                    <span className='text'>Ausgabe 2 | MAR 24 - MAI 19</span>
                   </div>
                 </a>
               </div>

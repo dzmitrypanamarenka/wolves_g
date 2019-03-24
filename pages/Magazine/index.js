@@ -10,7 +10,7 @@ export default () => <Layout>
             <div className='magazine-wrap'>
                 <img src="/static/img/magazine.png" alt="magazine" className='img'/>
                 <div className='wrap'>
-                <a href='https://magazine.gamingwolves.net/de_DE/9518/140701' className='link'>
+                <a href='https://magazine.gamingwolves.net/de_DE/9518/140701' target='_blank' className='link'>
                     <div className='title-wrapper'>
 											<span className='text'>Ausgabe 1 | DEZ 18 - FEB 19</span>
 											<h3 className='title'>jetzt lesen</h3>
@@ -21,12 +21,12 @@ export default () => <Layout>
             <div className='magazine-wrap'>
                 <img src="/static/img/magazine1.png" alt="magazine" className='img'/>
                 <div className='wrap'>
-                    <span className='link'>
-                    <div className='title-wrapper'>
-                        <span className='text'>Ausgabe 2 | MAR - MAI 19</span>
-                        <h3 className='title'>START: 24 MÄRZ 2019</h3>
-                    </div>
-                    </span>
+									<a href='https://magazine.gamingwolves.net/de_DE/11453/178528' target='_blank' className='link'>
+										<div className='title-wrapper'>
+												<span className='text'>Ausgabe 2 | MAR 24 - MAI 19</span>
+												<h3 className='title'>jetzt lesen</h3>
+										</div>
+									</a>
                 </div>
             </div>
             <span className='title'><b>HINWEIS:</b> Bitte deaktiviert Eure Adblocker auf Handy, wie z:B. Crystal, um das Magazin nutzen zu können.</span>
