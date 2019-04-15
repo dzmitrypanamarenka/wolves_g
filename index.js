@@ -16,8 +16,6 @@ const handle = nextApp.getRequestHandler();
 import config from './config/be_config';
 import routes from './server/routes';
 
-
-// const { Strategy } = passportLocal;
 const {
   port,
   dbURL,
