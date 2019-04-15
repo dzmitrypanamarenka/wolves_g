@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "clear": "rm -rf .next/ node_modules/",
+    "clear": "rm -rf .next/",
     "test-prod": "npm run clear && npm install && npm run build && npm run start",
     "build": "next build",
     "start-this": "nodemon -r @babel/register ./index.js",
