@@ -2,7 +2,7 @@ import React from 'react';
 // import axios from 'axios';
 // import { Form, Input, Button } from 'antd';
 
-import { Post1, Post2, Post3, Post6, Post5, Post7 } from '../../components/Post';
+import { Post1, Post2, Post3, Post6, Post5, Post7, Post8 } from '../../components/Post';
 
 import { Layout } from '../../components';
 import { PreviewContainer } from '../../containers';
@@ -40,7 +40,8 @@ class FormBlog extends React.Component {
       '5bc5cf7be0bcd84b492597c0': Post3,
       '5bc5c04f91a7c73df8bfcd4e': Post6,
       '5c339e5cfb6fc0600bdb03be': Post2,
-      '5c4c9f45fb6fc05326acd0c2': Post7
+			'5c4c9f45fb6fc05326acd0c2': Post7,
+			'5cb32aeae7179a570157500c': Post8,
     };
     return (
       <div className="blog-wrap">

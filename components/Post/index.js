@@ -416,3 +416,218 @@ export const Post7 = () => <section className={`post-wrap`}>
      - Hier wurde Potential verschenkt<br/>
   </p>
 </section>;
+
+export const Post8 = () => <section className={`post-wrap`}>
+  <Link href={`/blog`}>
+    <a className='link'>
+      <Icon type='left' className='icon'/>
+      <span className='title'>alle Artikel</span>
+    </a>
+  </Link>
+  <h3 className='title'>
+    <span>USA - The Big Game!</span>
+  </h3>
+  <figure className='img-wrap'>
+    <img src="../../static/img/biggame2.jpg" alt="" className='img'/>
+  </figure>
+  <p className='text'>
+		Was hatten wir für eine großartige Zeit in den USA!
+		Wir waren in San Francisco, San José, Santa Cruz, Las Vegas, Grand Canyon und Umgebung.
+		Was man festhalten kann, die USA sind das Land des Entertainments und irgendwie in jeder
+		Hinsicht ein großer Spielplatz – „The Big Game“!
+	</p>
+  <p className='text'>	
+		<figure className='img-wrap -post -left'>
+				<img src="../../static/img/biggame3.jpg" alt="" className='img'/>
+		</figure>	
+		Zum Beispiel die tägliche Dosis Sport im TV. Aktuell läuft der Endspurt in der Basketball-Liga
+		(NBA) wo Dirk Nowitzki (Dallas Mavericks) bester deutscher Basketballer aller Zeiten,
+		gerade sein letztes NBA Spiel hinter sich gebracht hat. Dazu haben die San Francisco Golden
+		State Warriors den ersten Platz in der Western Conference erreicht und die Stadt war
+		dadurch im Ausnahmezustand!<br/>	
+    Aber auch die NHL (Eishockey) ging in die entscheidende Phase. Die Vegas Golden Knights
+		haben die Playoffs erreicht, leider haben wir es nicht geschafft, uns ein Spiel anzuschauen!
+		Aber auch die San José Sharks stehen in den Playoffs, die in direkter Nachbarschaft zu San
+		Francisco stehen.
+  </p>
+  <p className='text'>
+  </p>
+  <p className='text'>
+		<figure className='img-wrap -post -right'>
+      <img src="../../static/img/biggame4.jpg" alt="" className='img'/>
+    </figure>
+		Was für ein Zufall, dass beide Mannschaften das erste Playoff Duell bestreiten werden.
+		Leider sind wir dann schon wieder zurück in Deutschland, hätte als Eishockey-Fan gerne ein
+		Spiel gesehen, dies ist aber aus organisatorischen Gründen nicht möglich gewesen. Schade!
+		Dazu noch Baseball (MLB), wo die San Francisco Giants und die Oakland Athletics
+		mitmischen. War uns aber irgendwie zu langweilig, so dass wir uns kein Spiel angesehen
+		haben.
+		In der NFL (American Football) ist die Saison vorbei, weswegen es aktuell kein Thema in den
+		Medien ist.
+  </p>
+  <p className='text'>	
+		<figure className='img-wrap -post -left'>
+			<img src="../../static/img/biggame7.jpg" alt="" className='img'/>
+		</figure>
+    <h4>VIDEO</h4>
+    Las Vegas ist das Spielerparadies schlecht hin und wer sich hier nicht im Griff hat, verliert
+		sich im Spiel und wird zu einem der vielen Bettler auf den Straßen! Die Casinos versuchen
+		einen überall und zu jeder Zeit zu infizieren und zu verschlingen! Vom Flughafen bis hin zu
+		jedem Hotel oder Sehenswürdigkeit in Las Vegas, überall und zu jeder Uhrzeit wird gespielt!
+		Ob bei den unendlich vielen Automaten, beim Greifarm, Black Jack oder Roulette, alles was
+		das Spielerherz begehrt wird hier bedient!
+  </p>
+  <p className='text'>
+    <figure className='img-wrap -post -right'>
+      <img src="../../static/img/biggame5.jpg" alt="" className='img'/>
+    </figure>
+    Wir zockten mit 1 Dollar Chips, und überlegten wie wir diese strategisch am besten
+		platzieren konnten. Zur gleichen Zeit bezahlte jemand 1.000 Dollar für Chips, platzierte diese
+		und verspielte alles in einer Runde – Bam! Aber er verzog keine Miene und kaufte sich direkt
+		noch einmal für 1.000 Dollar ein! Crazy sag ich euch!
+		Wir haben viel Spaß gehabt und haben unser Geld verzockt, musste einfach sein. Und am
+		Geburtstag ist der richtige Zeitpunkt gewesen, auch wenn wir leider Nichts gewonnen
+		haben, außer Nervenkitzel! Wer ein Auto gemietet hat und mehr Zeit in Las Vegas verbringt
+		als wir hatten, sollte sich unbedingt das Boardgame Café Meepleville ansehen, welches sich
+		auch schon Tom Vasell genauer angesehen hat. Leider hatten wir zu wenig Zeit, sonst hätten
+		wir uns das Brettspiel Café auf jeden Fall angeschaut.
+		In unserem Hotel in Las Vegas gab es auch einen riesigen E-Sports-Bereich. Ich habe mich mit
+		den Besitzern unterhalten und mir wurde gesagt, dass dies die Zukunft des Sports sein wird!
+		Der Boom hört nicht auf und immer mehr Teams werden gegründet. Es werden immer
+		größere Preisgelder bezahlt, was z.B. Magic The Gathering sehr gut aufzeigt, denn sie
+		schütten aktuell 1 Millionen Dollar aus – um beim E-Sport mitzumischen und sich um die
+		Krone zu duellieren. Aktuell ist Fortnite extrem beliebt und bei den Kartenspielern
+		Hearthstone, was aber stark von Magic angegriffen wird!
+  </p>
+  <p className='text'>
+		<figure className='img-wrap -post -right'>
+      <img src="../../static/img/biggame9.jpg" alt="" className='img'/>
+    </figure>
+		Wir haben uns aber auch einige Brettspielgeschäfte in San Francisco, Berkeley, San José und
+		Umgebung angesehen. Wie das GAMESCAPE oder das EUDEMONIA, die richtig gut waren.
+		Es war interessant zu sehen, wie sich das Spielen und die amerikanischen Interessen zu
+		Deutschland unterscheiden.
+  </p>
+	<p className='text'>	
+		<figure className='img-wrap -post -left'>
+      <img src="../../static/img/biggame11.jpg" alt="" className='img'/>
+    </figure>
+		Die Läden in den USA haben hier mehr Kickstarterspiele als bei uns, wie ich empfand. Sogar
+		einige deutsche Spiele sind hier aktuell sehr beliebt. Zum Beispiel die Spiele von Uwe
+		Rosenberg – die bei der Edition Spielwiese erschienen sind. Aber auch Black Hongkong von
+		Alexander Pfister – bei Pegasus Spiele erschienen. Scythe von Jamey Stegmaier wird viel
+		gespielt und verkauft, wo ich auch zu einem Spieleabend von Freunden unserer Gastfamilie
+		eingeladen wurde! Es war sehr geil Scythe in den USA zu zocken und ich habe ihnen direkt
+		die Erweiterung Aufstieg der Fenris schmackhaft gemacht! Bei uns über Feuerland Spiele zu
+		beziehen und wer noch nichts davon gehört hat: wir haben in unserer 2. Ausgabe vom
+		Online Magazin Gaming Wolves darüber ausführlich berichtet!
+  </p>
+	<p className='text'>	
+		<figure className='img-wrap -post -right'>
+      <img src="../../static/img/biggame12.jpg" alt="" className='img'/>
+    </figure>
+		Die Eltern waren mir sehr dankbar, dass ich mir die Zeit genommen habe, mit ihren Jungs zu
+		spielen, da es für die beiden Jungs nicht so einfach ist, Spieler in ihrem Alter und in der
+		Gegend zu finden. Wie es scheint, ist es nicht immer von Vorteil, in einem noblen
+		Stadtviertel zu leben. Da die Brüder viel zu zweit zocken, habe ich ihnen mein englisches
+		KeyForge Turnier Deck geschenkt und den Eltern empfohlen das Grundspiel noch dazu
+		zukaufen, da so die beiden Jungs, Miteinander spielen können. Die Brüder waren mega
+		glücklich und dankbar und ich war glücklich, das ich helfen konnte.
+  </p>
+	<p className='text'>	
+		<figure className='img-wrap -post -left'>
+      <img src="../../static/img/biggame14.jpg" alt="" className='img'/>
+    </figure>
+		Aber vor allem die Spiele von Fantasy Flight Games, Days of Wonder (deren Sitz ist in der
+		Nähe von San Francisco) und CMON sind hier beliebt und werden viel verkauft!
+		Beim letztgenannten Spielgeschäft EUDEMONIA, habe ich auch an einem KeyForge Turnier
+		teilgenommen. Das war eine absolute Herausforderung, zum einen, da alle ihr bestes Deck
+		gespielt haben und ich mir ein zufälliges, englisches kaufen musste, da meine deutschen
+		Decks nicht gespielt werden durften.
+		Ich habe trotz aller Widrigkeiten den 3. Platz belegt und hatte viel Spaß. Vor allem die
+		Herausforderung mit einem Deck zu spielen, was ich nicht kenne, macht einen der größten Reize von KeyForge aus. Danke an Richard Garfield für dieses neue und einzigartige Card
+		Game – I Love it!
+  </p>
+	<p className='text'>	
+		<figure className='img-wrap -post -right'>
+      <img src="../../static/img/biggame15.jpg" alt="" className='img'/>
+    </figure>
+		Auch hier habe ich mich mit dem Besitzer unterhalten. Hier ist Magic the Gathering der
+		König der Kartenspiele, gefolgt von Pokémon und nicht wie bei uns Yu-Gi-Oh! Dazu läuft
+		KeyForge gut, könnte allerdings in seinen Augen gerne noch zulegen, da der Preispool für
+		Turnierspieler uninteressant ist. Das soll aber in der Zukunft besser werden. Ich hoffe es,
+		denn genau das ist auch mein Gefühl in Deutschland. Bin gespannt auf die erste Erweiterung
+		und was da kommen wird! Der Laden bietet aber auch VR-Games und E-Sport-Spiele auf
+		dem PC an, da wie schon erwähnt der Markt boomt. Wie auch beim GAMESCAPE werden an
+		bestimmten Tagen Brettspiele direkt im Laden gezockt, so wie in Deutschland auch.
+  </p>
+	<p className='text'>	
+		<figure className='img-wrap -post -right'>
+      <img src="../../static/img/biggame16.jpg" alt="" className='img'/>
+    </figure>
+		Auch ein Brettspiel Café in San Francisco haben wir uns angeschaut und besucht. The Game
+		Parlour, welches uns sehr gut gefallen hat und eine großartige Spieleauswahl für die Spieler
+		bereithält. Dazu gab es tolles Essen – teuer, aber das ist in San Francisco nun mal überall so,
+		auch bei Mc Donnald wird’s nicht billig! Für 5 Dollar pro Person kann jeder 3 Stunden zocken
+		zuzüglich Getränke und Essen nach Bedarf! Wie gesagt, eine sehr gute und aktuelle
+		Spielauswahl, was jedes Brettspielerherz höher schlagen lässt!
+  </p>
+	<p className='text'>
+		<figure className='img-wrap -post -left'>
+      <img src="../../static/img/biggame19.jpg" alt="" className='img'/>
+    </figure>
+		<figure className='img-wrap -post -left'>
+      <img src="../../static/img/biggame23.jpg" alt="" className='img'/>
+    </figure>
+		Zwei Brettspiele habe ich direkt mitgenommen, plus Erweiterungen - hatte ja schließlich
+		auch Geburtstag! Beides waren Kickstarter Spiele, die ich nicht backen konnte. Zum einen
+		The Reckoners, bei dem die Story auf die Buchromane von meinen Lieblingsautor Brendon
+		Sanderson beruhen dessen Werke ich alle liebe, weswegen ich nicht wiederstehen konnte,
+		endlich das Spiel zur Buchreihe zu besitzen! Zum anderen habe ich noch Who Goes There,
+		mit zwei Erweiterungen mitgenommen. Leider gab es nirgendwo die Deluxe Edition, aber die
+		Aufgabe alles mit nach Deutschland mit zu bringen, ist schon eine Herausforderung für sich
+		gewesen!
+		Zum Glück ist es uns nach zahlreichen Umplanungen und Kopfzerbrechen gelungen, alles mit
+		nach Deutschland zu bringen, ohne extra Geld dafür ausgeben zu müssen! Freu mich jetzt
+		darauf diese ausgiebig in der nächsten Zeit zu zocken!
+  </p>
+	<p className='text'>
+		<figure className='img-wrap -post -right'>
+      <img src="../../static/img/biggame18.jpg" alt="" className='img'/>
+    </figure>
+		<h4>Am Ende unserer Reise</h4>
+		Ich hoffe die Impressionen unserer USA-Reise und dem amerikanischen Spielplatz „The Big
+		Game“ haben euch gefallen? Wir können allen Brettspielbegeisterten die Reise nach San
+		Francisco und Las Vegas auf jeden Fall empfehlen. Ihr solltet euch aber auch den Grand
+		Canyon ansehen, da dieses Naturschauspiel atemberaubend ist und uns die schönsten Seiten
+		der Welt präsentiert!<br/><br/>
+		Verspielte Grüße,
+		Tanja & Tobi
+  </p>
+	<p className='text-image'>
+		<figure className='img-wrap'>
+				<img src="../../static/img/biggame1.jpg" alt="" className='img'/>
+		</figure>
+		<figure className='img-wrap'>
+				<img src="../../static/img/biggame6.jpg" alt="" className='img'/>
+		</figure>
+		<figure className='img-wrap'>
+				<img src="../../static/img/biggame8.jpg" alt="" className='img'/>
+		</figure>
+		<figure className='img-wrap'>
+				<img src="../../static/img/biggame10.jpg" alt="" className='img'/>
+		</figure>
+		<figure className='img-wrap'>
+				<img src="../../static/img/biggame13.jpg" alt="" className='img'/>
+		</figure>
+		<figure className='img-wrap'>
+				<img src="../../static/img/biggame20.jpg" alt="" className='img'/>
+		</figure>
+		<figure className='img-wrap'>
+				<img src="../../static/img/biggame21.jpg" alt="" className='img'/>
+		</figure>
+		<figure className='img-wrap'>
+				<img src="../../static/img/biggame22.jpg" alt="" className='img'/>
+		</figure>
+	</p>
+</section>;
