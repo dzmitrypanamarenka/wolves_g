@@ -49,9 +49,10 @@ router.route('/preview').get((req, res) => {
         "5cb32aeae7179a570157500c",
         "5bc11a25ba69710417eb8f01",
         "5c4c9f45fb6fc05326acd0c2"
-      ];
+			];
       const result = posts
         .filter(el => ids.find(e => String(el._id) === e));
+			console.log(result)
       res.json(result);
     })
 });
