@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Icon } from 'antd';
+import Video from '@u-wave/react-vimeo';
 
 import './styles.scss';
 
@@ -438,7 +439,7 @@ export const Post8 = () => <section className={`post-wrap`}>
 	</p>
   <p className='text'>	
 		<figure className='img-wrap -post -left'>
-				<img src="../../static/img/biggame3.jpg" alt="" className='img'/>
+				<img src="../../static/img/biggame4.jpg" alt="" className='img'/>
 		</figure>	
 		Zum Beispiel die tägliche Dosis Sport im TV. Aktuell läuft der Endspurt in der Basketball-Liga
 		(NBA) wo Dirk Nowitzki (Dallas Mavericks) bester deutscher Basketballer aller Zeiten,
@@ -453,9 +454,9 @@ export const Post8 = () => <section className={`post-wrap`}>
   <p className='text'>
   </p>
   <p className='text'>
-		<figure className='img-wrap -post -right'>
-      <img src="../../static/img/biggame4.jpg" alt="" className='img'/>
-    </figure>
+		<div className='img-wrap -post -right'>
+			<Video className='video-wrap' video='330596102'/>
+		</div>
 		Was für ein Zufall, dass beide Mannschaften das erste Playoff Duell bestreiten werden.
 		Leider sind wir dann schon wieder zurück in Deutschland, hätte als Eishockey-Fan gerne ein
 		Spiel gesehen, dies ist aber aus organisatorischen Gründen nicht möglich gewesen. Schade!
@@ -469,7 +470,6 @@ export const Post8 = () => <section className={`post-wrap`}>
 		<figure className='img-wrap -post -left'>
 			<img src="../../static/img/biggame7.jpg" alt="" className='img'/>
 		</figure>
-    <h4>VIDEO</h4>
     Las Vegas ist das Spielerparadies schlecht hin und wer sich hier nicht im Griff hat, verliert
 		sich im Spiel und wird zu einem der vielen Bettler auf den Straßen! Die Casinos versuchen
 		einen überall und zu jeder Zeit zu infizieren und zu verschlingen! Vom Flughafen bis hin zu
@@ -524,7 +524,7 @@ export const Post8 = () => <section className={`post-wrap`}>
   </p>
 	<p className='text'>	
 		<figure className='img-wrap -post -right'>
-      <img src="../../static/img/biggame12.jpg" alt="" className='img'/>
+      <img src="../../static/img/biggame22.jpg" alt="" className='img'/>
     </figure>
 		Die Eltern waren mir sehr dankbar, dass ich mir die Zeit genommen habe, mit ihren Jungs zu
 		spielen, da es für die beiden Jungs nicht so einfach ist, Spieler in ihrem Alter und in der
@@ -536,7 +536,7 @@ export const Post8 = () => <section className={`post-wrap`}>
   </p>
 	<p className='text'>	
 		<figure className='img-wrap -post -left'>
-      <img src="../../static/img/biggame14.jpg" alt="" className='img'/>
+      <img src="../../static/img/biggame15.jpg" alt="" className='img'/>
     </figure>
 		Aber vor allem die Spiele von Fantasy Flight Games, Days of Wonder (deren Sitz ist in der
 		Nähe von San Francisco) und CMON sind hier beliebt und werden viel verkauft!
@@ -550,7 +550,7 @@ export const Post8 = () => <section className={`post-wrap`}>
   </p>
 	<p className='text'>	
 		<figure className='img-wrap -post -right'>
-      <img src="../../static/img/biggame15.jpg" alt="" className='img'/>
+      <img src="../../static/img/biggame16.jpg" alt="" className='img'/>
     </figure>
 		Auch hier habe ich mich mit dem Besitzer unterhalten. Hier ist Magic the Gathering der
 		König der Kartenspiele, gefolgt von Pokémon und nicht wie bei uns Yu-Gi-Oh! Dazu läuft
@@ -563,7 +563,7 @@ export const Post8 = () => <section className={`post-wrap`}>
   </p>
 	<p className='text'>	
 		<figure className='img-wrap -post -right'>
-      <img src="../../static/img/biggame16.jpg" alt="" className='img'/>
+      <img src="../../static/img/biggame18.jpg" alt="" className='img'/>
     </figure>
 		Auch ein Brettspiel Café in San Francisco haben wir uns angeschaut und besucht. The Game
 		Parlour, welches uns sehr gut gefallen hat und eine großartige Spieleauswahl für die Spieler
@@ -593,7 +593,7 @@ export const Post8 = () => <section className={`post-wrap`}>
   </p>
 	<p className='text'>
 		<figure className='img-wrap -post -right'>
-      <img src="../../static/img/biggame18.jpg" alt="" className='img'/>
+      <img src="../../static/img/biggame8.jpg" alt="" className='img'/>
     </figure>
 		<h4>Am Ende unserer Reise</h4>
 		Ich hoffe die Impressionen unserer USA-Reise und dem amerikanischen Spielplatz „The Big
@@ -612,9 +612,6 @@ export const Post8 = () => <section className={`post-wrap`}>
 				<img src="../../static/img/biggame6.jpg" alt="" className='img'/>
 		</figure>
 		<figure className='img-wrap'>
-				<img src="../../static/img/biggame8.jpg" alt="" className='img'/>
-		</figure>
-		<figure className='img-wrap'>
 				<img src="../../static/img/biggame10.jpg" alt="" className='img'/>
 		</figure>
 		<figure className='img-wrap'>
@@ -625,9 +622,6 @@ export const Post8 = () => <section className={`post-wrap`}>
 		</figure>
 		<figure className='img-wrap'>
 				<img src="../../static/img/biggame21.jpg" alt="" className='img'/>
-		</figure>
-		<figure className='img-wrap'>
-				<img src="../../static/img/biggame22.jpg" alt="" className='img'/>
 		</figure>
 	</p>
 </section>;

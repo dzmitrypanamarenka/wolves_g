@@ -63,7 +63,12 @@
         display: block;
         margin: 0 0 20px;
       }
-    }
+		}
+		
+		.img-wrap > .video-wrap {
+			display: flex;
+			width: 100%;
+		}
   }
 }
 
