@@ -577,7 +577,7 @@ export const Post8 = () => <section className={`post-wrap`}>
       <img src="../../static/img/biggame19.jpg" alt="" className='img'/>
     </figure>
 		<figure className='img-wrap -post -left'>
-      <img src="../../static/img/biggame23.jpg" alt="" className='img'/>
+      <img src="../../static/img/biggame21.jpg" alt="" className='img'/>
     </figure>
 		Zwei Brettspiele habe ich direkt mitgenommen, plus Erweiterungen - hatte ja schließlich
 		auch Geburtstag! Beides waren Kickstarter Spiele, die ich nicht backen konnte. Zum einen
@@ -596,7 +596,7 @@ export const Post8 = () => <section className={`post-wrap`}>
       <img src="../../static/img/biggame8.jpg" alt="" className='img'/>
     </figure>
 		<h4>Am Ende unserer Reise</h4>
-		Ich hoffe die Impressionen unserer USA-Reise und dem amerikanischen Spielplatz „The Big
+		Ich hoffe die Impressionen unserer USA-Reise zu dem amerikanischen Spielplatz „The Big
 		Game“ haben euch gefallen? Wir können allen Brettspielbegeisterten die Reise nach San
 		Francisco und Las Vegas auf jeden Fall empfehlen. Ihr solltet euch aber auch den Grand
 		Canyon ansehen, da dieses Naturschauspiel atemberaubend ist und uns die schönsten Seiten
@@ -621,7 +621,7 @@ export const Post8 = () => <section className={`post-wrap`}>
 				<img src="../../static/img/biggame20.jpg" alt="" className='img'/>
 		</figure>
 		<figure className='img-wrap'>
-				<img src="../../static/img/biggame21.jpg" alt="" className='img'/>
+				<img src="../../static/img/biggame23.jpg" alt="" className='img'/>
 		</figure>
 	</p>
 </section>;
