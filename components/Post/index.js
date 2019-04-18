@@ -197,7 +197,7 @@ export const Post5 = () => <section className={`post-wrap`}>
     Highlights 2018
   </h3>
   <figure className='img-wrap'>
-    <img src='../../static/img/preview0.jpg' alt="" className='img'/>
+    <img src='../../static/img/preview2.jpg' alt="" className='img'/>
   </figure>
   <p className='text'>
     Heute stellen wir Euch unsere Highlights 2018, im Bereich Brett- und Kartenspiele vor.
@@ -450,8 +450,6 @@ export const Post8 = () => <section className={`post-wrap`}>
 		haben die Playoffs erreicht, leider haben wir es nicht geschafft, uns ein Spiel anzuschauen!
 		Aber auch die San José Sharks stehen in den Playoffs, die in direkter Nachbarschaft zu San
 		Francisco stehen.
-  </p>
-  <p className='text'>
   </p>
   <p className='text'>
 		<div className='img-wrap -post -right'>
